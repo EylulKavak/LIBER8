@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Text_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: c33ab568bb0b55d45882d15459a36d0d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 14013153280
+    m_Localized: Tonight... tonight I will either be free or I will die here. But
+      no matter what, I will reveal the truth.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182175383552
+    m_Localized: Hey! Is anyone awake?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410433601536
+    m_Localized: OK John, it's now or never.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 597373730816
+    m_Localized: John, this is very dangerous. If the guards catch you...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 655175434240
+    m_Localized: They won't catch it. This is my only chance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 969995698176
+    m_Localized: I'm free. Now I need to find the truth and justify myself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012140064768
+    m_Localized: Let the journey begin.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
