@@ -43,6 +43,42 @@ MonoBehaviour:
     m_Key: JD7
     m_Metadata:
       m_Items: []
+  - m_Id: 995893536866304
+    m_Key: MCONTINUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 995960289214464
+    m_Key: MNEWGAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 996037363744768
+    m_Key: MSETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 996073715777536
+    m_Key: MEXIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1017268372750336
+    m_Key: SRESOLUTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1017514687447040
+    m_Key: SQUALITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1017570043871232
+    m_Key: SSOUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1017589962620928
+    m_Key: SBRIGHTNESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1018358430416896
+    m_Key: MBACK
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
