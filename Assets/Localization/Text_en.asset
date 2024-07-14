@@ -83,6 +83,27 @@ MonoBehaviour:
     m_Localized: Back
     m_Metadata:
       m_Items: []
+  - m_Id: 7263984428236800
+    m_Localized: '25 years... I was locked in a cell for 25 years. Every day
+
+      the
+      same four walls. I couldn''t prove to anyone that I was innocent. (Takes a
+      deep breath) But now
+
+      I''m free. I will do my best to reveal the truth.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7264203144413184
+    m_Localized: 'But what will I do? I only have a few pennies in my pocket. One
+      to stay
+
+      I need to find a place. And right away.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7264340063272960
+    m_Localized: This is it! Maybe this could be a start for me.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
