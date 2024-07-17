@@ -101,6 +101,10 @@ MonoBehaviour:
       olabilir."
     m_Metadata:
       m_Items: []
+  - m_Id: 7966045985816576
+    m_Localized: "Konu\u015Fmak \u0130\xE7in F'ye bas"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

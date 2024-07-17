@@ -104,6 +104,10 @@ MonoBehaviour:
     m_Localized: This is it! Maybe this could be a start for me.
     m_Metadata:
       m_Items: []
+  - m_Id: 7966045985816576
+    m_Localized: Press F to Talk
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
