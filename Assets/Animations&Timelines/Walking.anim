@@ -60504,14 +60504,16 @@ AnimationClip:
   - time: 0.38333333
     functionName: StepVoice
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 8300000, guid: 9ec3f696af35a8f4eba90cfd0333da2a,
+      type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.8333333
     functionName: StepVoice
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 8300000, guid: 9ec3f696af35a8f4eba90cfd0333da2a,
+      type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

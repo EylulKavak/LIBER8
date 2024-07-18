@@ -32,4 +32,12 @@ public class DialogueTriggerer : MonoBehaviour
             ConversationManager.Instance.StartConversation(currentConversation);
         }
     }
+    private void OnEnable()
+    {
+        Invoke(nameof(End), 0.2f);
+    }
+    private void End()
+    {
+        ConversationManager.Instance.EndButtonSelected();
+    }
 }
