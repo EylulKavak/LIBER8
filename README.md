@@ -2,14 +2,17 @@
 **Unity Grup - 19**
 
 ## Takım Üyeleri:
-- **Emir Ayar** - Product Owner
-- **Eylül Kavak Öz** - Scrum Master
+
+- **Emir Ayar** - Product Owner & Developer
+- **Eylül Kavak Öz** - Scrum Master & Developer
 - **Elbruz Nart Şuruh** - Developer
 - **Emirhan Alkın** - Developer
-- **Esmanur Tetik** - Developer
+- **Esmanur Tetik** - Game Artist & Level Designer
 
-## Oyun Adı: Adaletin Gölgesi 
-Kesinleştirmedik, 2.Sprint sonunda kesinleştirmiş olacağız.
+## Oyun Adı: LIBER8
+
+![LIBER8 Logo](https://drive.google.com/uc?id=1j2BbG-h_uwjHHvS2TTIzMopwMl00EJex)
+
 
 ## Hikayenin Konusu:
 Hikayemizin ana kahramanı John, daha önce tanıştığı ve hizmet ettiği zengin bir iş adamının ölümüyle ilgili olarak suçlanmıştır. Bu iş adamı John'un daha önce çalıştığı bir şirketin sahibi veya yöneticisi olabilir. Ölüm şüpheli bir şekilde gerçekleşmiş ve deliller John'u suçlu göstermiş ve adil olmayan bir şekilde hapis cezasına çarptırılmıştır. John masum olduğunu bile bile kendisini kanıtlamak için mücadele etmiştir. 25 yılın ardından John hapishaneden kaçar. Bu kaçış onun masumiyetini kanıtlama ve gerçek suçluyu bulma amacıyla başlar.
@@ -141,3 +144,59 @@ https://trello.com/invite/b/CGPjXqGs/ATTI50196393f53431e00b224b1bff53f94275553C2
 
 ![Screenshot 2024-07-07 172756](https://github.com/EylulKavakOz/Bootcamp-Unity-Grup19/assets/129091271/a7feacf0-46e8-443a-8e09-9e3e9075286c)
 
+## 2. Sprint Başlangıcı (06.07.2024)
+06.07.2024 tarihinde 1.Sprint review toplantısının devamında 2.Sprint için yapılması gerekenler ve planlamalar üzerine konuşulmuştur.
+Bakclogta 1.sprintte tamamlanmak üzerine yer alan ancak tamamlanamayan konularla beraber 2.sprintte tamamlanması hedeflenen başlıklar konuşulmuş, görevlendirmeleri yapılmıştır. 
+
+Ayrıca 16.07.2024 tarihinde takım içi değerlendirme toplantısı yapılmıştır. Bu toplantıda 2.sprint sonunda tamamlanması beklenen hedeflerin üzerinden geçilmiştir.
+https://drive.google.com/drive/folders/19qhH5LDeGK6AOTPWvhAh_39lKMbiaUjG?usp=drive_link
+
+## 2. Sprint Sonu (20.07.2024)
+Sprint review toplantısı 20.07.2024 tarihinde 19:00’da yapılmıştır.
+
+### Daily Scrum
+Daily Scrum görüşmeleri Discord üzerinden yapılmıştır.
+
+### İş Takibi
+İş takibi için Trello kullanılmıştır.
+https://trello.com/invite/b/CGPjXqGs/ATTI50196393f53431e00b224b1bff53f94275553C29/to-dos
+
+### Sprint Review Katılımcıları
+- Emir Ayar
+- Eylül Kavak Öz
+- Elbruz Nart Şuruh
+- Emirhan Alkın
+- Esmanur Tetik
+
+### Sprint Retrospective
+- Backlog ile ilgili düzenlemeler yapılmış ve ilk toplantıda eklenmeyen bazı tasklar güncellenmiştir.
+- 3.Sprint'e sarkan güncellemeler konuşulup planlanmıştır.
+
+---
+
+Puan tamamlama mantığı: Proje boyunca tamamlanması gereken backlog puanı 167'dir. İkinci sprint için bitirilmesi hedeflenen puan sayısı 58 olarak belirlenmiştir. İlk sprintten gelen iş yükü ile birlikte ulaşılması hedeflenen güncel backlog puanı 63 olmuştur.
+
+### 2.Sprint Görevleri
+
+| Görev | Görevli Kişiler | Backlog Puanı | Görev Tamamlanma Durumu |
+|-------|------------------|---------------|------------------------|
+| Meslek oyunlarından Benzinlik yapılacak. | Emir | 15 | Cumartesi 3.sprint Ceza sistemi? Sahne başına atma sistemi. |
+| Meslek oyunlarından Barmenlik yapılacak. | Emir & Elbruz | 15-13=2 | İlk sprintte eksik kalan 2 puanlık kısım tamamlandı. 3.sprint Ceza sistemi? Sahne başına atma sistemi. |
+| Mini oyunlardan Dart yapılacak. | Emirhan’dan Eylül’e geçti. | 5-3=2 | İlk sprintte eksik kalan 2 puanlık kısım tamamlandı. |
+| Mini oyunlardan Arcade yapılacak. | Emirhan | 5 | done |
+| 2. sahnenin diyalog ve ara sahneleri yapılacak. | Elbruz | 3-2=1 | İlk sprintte eksik kalan 1 puanlık kısım tamamlandı. |
+| 3. sahnenin diyalog ve ara sahneleri yapılacak. | Elbruz | 3 | done |
+| 4. sahnenin diyalog ve ara sahneleri yapılacak. | Elbruz | 3 |  |
+| 5. sahnenin diyalog ve ara sahneleri yapılacak. | Elbruz | 3 |  |
+| Yol sahnesindeki yan karakter modellemeleri yapılacak | Esmanur | 3 | done |
+| Bar sahnesindeki yan karakter modellemeleri yapılacak | Esmanur | 3 | done |
+| Yol sahnesinin level tasarımı yapılacak | Elbruz | 5 | done |
+| Bar sahnesinin level tasarımı yapılacak | Esmanur & Elbruz | 5 | done |
+| Settings Ekranı yapılacak | Eylül | 5 | Giriş ve settings |
+| Game Over Ekranı yapılacak | Eylül | 5 | Ekran video oynatma / credits. 3.sprint Ceza sistemi? Sahne başına atma sistemi. |
+| Giriş & Menü Ekranı müziği yapılacak | Eylül | 3 | tüm müzikler güncellendi backlog hesabına eklenmeli |
+| Otel - Bar - Benzin İstasyonu sahneleri ve Araç yolculukları için background müzikleri yapılacak. | Eylül | 3 | Tamamlandı. |
+
+### 2.Sprint Puanı
+- Beklenen: 
+- Ulaşılan: 
