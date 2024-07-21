@@ -6,11 +6,18 @@ public class Customer : MonoBehaviour, IInteractable
     public string[] fruits = {};
     public string[] sodas = {};
     public TMP_Text orderText; // UI Text to show order details
+    public TMP_Text timerText; // UI Text to show the remaining time
+    public TMP_Text warningText; // UI Text to show warning messages
 
     private string orderedFruit;
     private string orderedSoda;
     private int orderedIce;
     private bool hasOrder = false;
+
+    public Lives lives;
+
+    private float orderTimer = 30f; // 30 seconds timer
+    private bool timerRunning = false;
 
     public void Interact(PlayerInteract player)
     {
@@ -31,7 +38,10 @@ public class Customer : MonoBehaviour, IInteractable
         orderedIce = Random.Range(0, 3); // 0, 1, or 2 ice cubes
 
         hasOrder = true;
-        string orderDetails = $"Order: {orderedFruit} fruit, {orderedSoda} soda, {orderedIce} ice cubes.";
+        timerRunning = true; // Start the timer
+        orderTimer = 30f; // Reset the timer
+
+        string orderDetails = $"Order:  {orderedIce} Ice Cubes, {orderedSoda} Soda, {orderedFruit} Fruit";
         Debug.Log(orderDetails);
         
         // Update the UI text with the order details
@@ -57,12 +67,20 @@ public class Customer : MonoBehaviour, IInteractable
         if (!sodaCorrect)
         {
             Debug.LogWarning("Wrong soda type.");
+            if (warningText != null)
+            {
+                warningText.text = "Wrong soda type.";
+            }
             isOrderCorrect = false;
         }
 
         if (player.iceCount != orderedIce)
         {
             Debug.LogWarning("Wrong amount of ice.");
+            if (warningText != null)
+            {
+                warningText.text += "\nWrong amount of ice.";
+            }
             isOrderCorrect = false;
         }
 
@@ -77,6 +95,10 @@ public class Customer : MonoBehaviour, IInteractable
         if (!fruitCorrect)
         {
             Debug.LogWarning("Wrong or missing fruit type.");
+            if (warningText != null)
+            {
+                warningText.text += "\nWrong or missing fruit type.";
+            }
             isOrderCorrect = false;
         }
 
@@ -85,11 +107,61 @@ public class Customer : MonoBehaviour, IInteractable
             Debug.Log("Order is correct!");
             player.ReturnCup();
             hasOrder = false;
+            timerRunning = false; // Stop the timer
 
             // Clear the UI text
             if (orderText != null)
             {
                 orderText.text = "";
+            }
+            if (timerText != null)
+            {
+                timerText.text = "";
+            }
+            if (warningText != null)
+            {
+                warningText.text = "";
+            }
+        }
+        else
+        {
+            lives.liveCount--;
+        }
+    }
+
+    private void Update()
+    {
+        if (timerRunning)
+        {
+            orderTimer -= Time.deltaTime;
+
+            // Update the timer text
+            if (timerText != null)
+            {
+                timerText.text = $"Kalan Zaman: {orderTimer:F1}"; // Show the time with one decimal place
+            }
+
+            if (orderTimer <= 0)
+            {
+                Debug.LogWarning("Order not delivered in time!");
+                if (warningText != null)
+                {
+                    warningText.text = "Order not delivered in time!";
+                }
+                hasOrder = false;
+                timerRunning = false;
+                orderTimer = 30f; // Reset the timer for the next order
+                lives.liveCount--;
+
+                // Clear the UI text
+                if (orderText != null)
+                {
+                    orderText.text = "";
+                }
+                if (timerText != null)
+                {
+                    timerText.text = "";
+                }
             }
         }
     }
