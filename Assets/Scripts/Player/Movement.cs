@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
         if (GroundCheck()) Gizmos.color = Color.green;
         else Gizmos.color = Color.red;
 
-        Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - .8f, transform.position.z), .5f);
+        Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - transform.localScale.y * .8f, transform.position.z), transform.localScale.y * .5f);
     }
     private void Awake()
     {
@@ -56,6 +56,14 @@ public class Movement : MonoBehaviour
     {
         speed = walkSpeed;
     }
-    bool GroundCheck() => Physics.CheckSphere(transform.position - new Vector3(0, .8f, 0), .5f, groundCheck, QueryTriggerInteraction.Ignore);
+    bool GroundCheck() => Physics.CheckSphere(transform.position - new Vector3(0, transform.localScale.y * .8f, 0), transform.localScale.y * .5f, groundCheck, QueryTriggerInteraction.Ignore);
+    private void OnEnable()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    private void OnDisable()
+    {
 
+        Cursor.lockState = CursorLockMode.None;
+    }
 }

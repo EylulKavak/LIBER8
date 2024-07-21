@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Glass
+  - Box
   layers:
   - Default
   - TransparentFX
@@ -11,8 +13,13 @@ TagManager:
   - 
   - Water
   - UI
+<<<<<<< HEAD
   - Enemy
   - Player
+=======
+  - Object
+  - Npc
+>>>>>>> 0c72485682e6dbba665a1f76e391292f080e17c7
   - 
   - 
   - 

@@ -84,6 +84,27 @@ MonoBehaviour:
     m_Localized: Geri
     m_Metadata:
       m_Items: []
+  - m_Id: 7263984428236800
+    m_Localized: "25 y\u0131l... 25 y\u0131l boyunca bir h\xFCcrede kapal\u0131 kald\u0131m.
+      Her g\xFCn\r\nayn\u0131 d\xF6rt duvar. Su\xE7suz oldu\u011Fumu kimseye kan\u0131tlayamad\u0131m.
+      (Derin bir nefes al\u0131r) Ama art\u0131k\r\n\xF6zg\xFCr\xFCm. Ger\xE7e\u011Fi
+      ortaya \xE7\u0131karmak i\xE7in elimden geleni yapaca\u011F\u0131m.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7264203144413184
+    m_Localized: "Ama ne yapaca\u011F\u0131m? Cebimde sadece birka\xE7 kuru\u015F
+      var. Kalacak bir\r\nyer bulmam laz\u0131m. Hem de hemen. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7264340063272960
+    m_Localized: " \u0130\u015Fte bu! Belki de buras\u0131 benim i\xE7in bir ba\u015Flang\u0131\xE7
+      olabilir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7966045985816576
+    m_Localized: "Konu\u015Fmak \u0130\xE7in F'ye bas"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

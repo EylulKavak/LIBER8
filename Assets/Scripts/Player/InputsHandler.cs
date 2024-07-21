@@ -6,17 +6,19 @@ public class InputsHandler : MonoBehaviour
 {
     [HideInInspector] public PlayerInputs playerInputs;
     Movement movement;
+    DialogueTriggerer dialogueTriggerer;
 
     private void Awake()
     {
         movement = GetComponent<Movement>();
+        dialogueTriggerer = GetComponent<DialogueTriggerer>();
     }
     public void SetInputs(bool enable)
     {
         if (enable)
         {
-            Cursor.lockState = CursorLockMode.Locked;
             playerInputs.Movement.Enable();
+            playerInputs.Movement.Interact.performed += Interact_performed;
             playerInputs.Movement.Run.performed += Run_performed;
             playerInputs.Movement.Run.canceled += Run_performed;
             playerInputs.Movement.Move.performed += Move_performed;
@@ -24,11 +26,20 @@ public class InputsHandler : MonoBehaviour
         }
         else
         {
+            playerInputs.Movement.Interact.performed -= Interact_performed;
             playerInputs.Movement.Run.performed -= Run_performed;
             playerInputs.Movement.Run.canceled -= Run_performed;
             playerInputs.Movement.Move.performed -= Move_performed;
             playerInputs.Movement.Move.canceled -= Move_performed;
             playerInputs.Movement.Disable();
+        }
+    }
+
+    private void Interact_performed(InputAction.CallbackContext obj)
+    {
+        if (dialogueTriggerer.enabled)
+        {
+            dialogueTriggerer.StartDialgoue();
         }
     }
 
