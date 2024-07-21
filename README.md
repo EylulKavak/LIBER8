@@ -11,7 +11,7 @@
 
 ## Oyun Adı: LIBER8
 
-![LIBER8 Logo](https://drive.google.com/uc?id=1j2BbG-h_uwjHHvS2TTIzMopwMl00EJex)
+![LIBER8](https://github.com/user-attachments/assets/be662329-c05f-4017-a100-222e712dd425)
 
 
 ## Hikayenin Konusu:
@@ -166,6 +166,8 @@ https://drive.google.com/drive/folders/1p2Qg5w7T4HQeB_xOFwQFQgcujSizStjW
 İş takibi için Trello kullanılmıştır.
 https://trello.com/invite/b/CGPjXqGs/ATTI50196393f53431e00b224b1bff53f94275553C29/to-dos
 
+![Trello](https://github.com/user-attachments/assets/16805593-ff31-4685-9453-a733e7279e5e)
+
 ### Sprint Review Katılımcıları
 - Emir Ayar
 - Eylül Kavak Öz
@@ -209,10 +211,10 @@ Puan tamamlama mantığı: Proje boyunca tamamlanması gereken backlog puanı 16
 
 
 ![Soda makinesi](https://github.com/user-attachments/assets/20eae567-5ce7-4baa-822c-f73dc1c894b7)
-![SettingsMenu-TR](https://github.com/user-attachments/assets/be4003d3-7446-48bb-9819-d81bb453343b)
-![MainMenu-EN](https://github.com/user-attachments/assets/601b209f-5fe2-4cca-aa27-b8a3fb7c1263)
 ![lisa_render](https://github.com/user-attachments/assets/482b2bdd-e1df-4567-a16a-8c5369b0a0e7)
 ![harry_render](https://github.com/user-attachments/assets/d0531b9e-9728-4c0f-89ca-dd0624bf6653)
+![SettingsMenu-TR](https://github.com/user-attachments/assets/2f9be6c6-65b1-4a15-9db8-4aa83ce96275)
+![MainMenu-EN](https://github.com/user-attachments/assets/58e56934-174f-43b4-95b3-3fef7904268f)
 ![Diyalog1](https://github.com/user-attachments/assets/b5b6aad8-cd6d-4bc2-8954-cf1cb46576b7)
 ![Dart](https://github.com/user-attachments/assets/d3b43d1e-f558-4bde-b7f1-6a13b8331bd1)
 ![Benzinlik2](https://github.com/user-attachments/assets/14e6c076-84eb-4bc4-86eb-fec0aab6052d)
