@@ -100,10 +100,6 @@ https://trello.com/invite/b/CGPjXqGs/ATTI50196393f53431e00b224b1bff53f94275553C2
 - Emirhan Alkın
 - Esmanur Tetik
 
-### Sprint Retrospective
-- Backlog ile ilgili düzenlemeler yapılmış ve ilk toplantıda eklenmeyen bazı tasklar güncellenmiştir.
-- 2.Sprint'e sarkan güncellemeler konuşulup planlanmıştır.
-
 ---
 
 ### 1. Sprint Görevleri ve Durumları
@@ -128,6 +124,11 @@ https://trello.com/invite/b/CGPjXqGs/ATTI50196393f53431e00b224b1bff53f94275553C2
 - Beklenen: 76
 - Ulaşılan: 71
 
+
+### Sprint Retrospective
+- Backlog ile ilgili düzenlemeler yapılmış ve ilk toplantıda eklenmeyen bazı tasklar güncellenmiştir.
+- 2.Sprint'e sarkan güncellemeler konuşulup planlanmıştır.
+
 ![Screenshot 2024-07-07 172423](https://github.com/EylulKavakOz/Bootcamp-Unity-Grup19/assets/129091271/fa9ac69f-f043-46ca-a605-05e4d9da2440)
 
 
@@ -151,8 +152,11 @@ Bakclogta 1.sprintte tamamlanmak üzerine yer alan ancak tamamlanamayan konularl
 Ayrıca 16.07.2024 tarihinde takım içi değerlendirme toplantısı yapılmıştır. Bu toplantıda 2.sprint sonunda tamamlanması beklenen hedeflerin üzerinden geçilmiştir.
 https://drive.google.com/drive/folders/19qhH5LDeGK6AOTPWvhAh_39lKMbiaUjG?usp=drive_link
 
+---
+
 ## 2. Sprint Sonu (20.07.2024)
 Sprint review toplantısı 20.07.2024 tarihinde 19:00’da yapılmıştır.
+https://drive.google.com/drive/folders/1BwcHLs77xOdIl5vW5WtQgvMF4YYkLxrN?usp=drive_link
 
 ### Daily Scrum
 Daily Scrum görüşmeleri Discord üzerinden yapılmıştır.
@@ -168,35 +172,51 @@ https://trello.com/invite/b/CGPjXqGs/ATTI50196393f53431e00b224b1bff53f94275553C2
 - Emirhan Alkın
 - Esmanur Tetik
 
-### Sprint Retrospective
-- Backlog ile ilgili düzenlemeler yapılmış ve ilk toplantıda eklenmeyen bazı tasklar güncellenmiştir.
-- 3.Sprint'e sarkan güncellemeler konuşulup planlanmıştır.
-
 ---
+
+### 2. Sprint Görevleri ve Durumları
 
 Puan tamamlama mantığı: Proje boyunca tamamlanması gereken backlog puanı 167'dir. İkinci sprint için bitirilmesi hedeflenen puan sayısı 58 olarak belirlenmiştir. İlk sprintten gelen iş yükü ile birlikte ulaşılması hedeflenen güncel backlog puanı 63 olmuştur.
 
-### 2.Sprint Görevleri
-
 | Görev | Görevli Kişiler | Backlog Puanı | Görev Tamamlanma Durumu |
 |-------|------------------|---------------|------------------------|
-| Meslek oyunlarından Benzinlik yapılacak. | Emir | 15 | Cumartesi 3.sprint Ceza sistemi? Sahne başına atma sistemi. |
-| Meslek oyunlarından Barmenlik yapılacak. | Emir & Elbruz | 15-13=2 | İlk sprintte eksik kalan 2 puanlık kısım tamamlandı. 3.sprint Ceza sistemi? Sahne başına atma sistemi. |
-| Mini oyunlardan Dart yapılacak. | Emirhan’dan Eylül’e geçti. | 5-3=2 | İlk sprintte eksik kalan 2 puanlık kısım tamamlandı. |
-| Mini oyunlardan Arcade yapılacak. | Emirhan | 5 | done |
-| 2. sahnenin diyalog ve ara sahneleri yapılacak. | Elbruz | 3-2=1 | İlk sprintte eksik kalan 1 puanlık kısım tamamlandı. |
-| 3. sahnenin diyalog ve ara sahneleri yapılacak. | Elbruz | 3 | done |
-| 4. sahnenin diyalog ve ara sahneleri yapılacak. | Elbruz | 3 |  |
-| 5. sahnenin diyalog ve ara sahneleri yapılacak. | Elbruz | 3 |  |
-| Yol sahnesindeki yan karakter modellemeleri yapılacak | Esmanur | 3 | done |
-| Bar sahnesindeki yan karakter modellemeleri yapılacak | Esmanur | 3 | done |
-| Yol sahnesinin level tasarımı yapılacak | Elbruz | 5 | done |
-| Bar sahnesinin level tasarımı yapılacak | Esmanur & Elbruz | 5 | done |
-| Settings Ekranı yapılacak | Eylül | 5 | Giriş ve settings |
-| Game Over Ekranı yapılacak | Eylül | 5 | Ekran video oynatma / credits. 3.sprint Ceza sistemi? Sahne başına atma sistemi. |
-| Giriş & Menü Ekranı müziği yapılacak | Eylül | 3 | tüm müzikler güncellendi backlog hesabına eklenmeli |
-| Otel - Bar - Benzin İstasyonu sahneleri ve Araç yolculukları için background müzikleri yapılacak. | Eylül | 3 | Tamamlandı. |
+| Meslek oyunlarından Benzinlik yapılacak. | Emir | 15 | Neredeyse tamamlandı. Ceza sistemi kısmı düzenlenecek. (12 Puan tamamlandı) |
+| Meslek oyunlarından Barmenlik yapılacak. (1.Sprint görevi) | Emir & Elbruz | 15-13=2 | İlk sprintte eksik kalan 2 puanlık kısım tamamlandı. |
+| Mini oyunlardan Dart yapılacak.  (1.Sprint görevi) | Emirhan’dan Eylül’e geçti. | 5-3=2 | İlk sprintte eksik kalan 2 puanlık kısım tamamlandı. |
+| Mini oyunlardan Arcade yapılacak. | Emirhan | 5 | Tamamlandı. |
+| 2. sahnenin diyalog ve ara sahneleri yapılacak. (1.Sprint görevi) | Elbruz | 3-2=1 | İlk sprintte eksik kalan 1 puanlık kısım tamamlandı. |
+| 3. sahnenin diyalog ve ara sahneleri yapılacak. (1.Sprint görevi) | Elbruz | 3 | Tamamlandı. |
+| 4. sahnenin diyalog ve ara sahneleri yapılacak. | Elbruz | 3 | Tamamlandı. |
+| 5. sahnenin diyalog ve ara sahneleri yapılacak. | Elbruz | 3 | 3. sprintte yapılacak. |
+| Yol sahnesindeki yan karakter modellemeleri yapılacak | Esmanur | 3 | Tamamlandı. |
+| Bar sahnesindeki yan karakter modellemeleri yapılacak | Esmanur | 3 | Tamamlandı. |
+| Yol sahnesinin level tasarımı yapılacak | Elbruz | 5 | Tamamlandı. |
+| Bar sahnesinin level tasarımı yapılacak | Esmanur & Elbruz | 5 | Tamamlandı. |
+| Settings Ekranı yapılacak | Eylül | 5 | Tamamlandı. |
+| Game Over Ekranı yapılacak | Eylül | 5 | 3. sprintte oyunun final sahnesiyle karar verilecek. |
+| Otel - Bar - Benzin İstasyonu sahneleri ve Araç yolculukları için background müzikleri yapılacak. | Eylül | 3 | Tamamlandı. Müzikler için planlanan güncellemeler yapıldı. |
 
-### 2.Sprint Puanı
-- Beklenen: 
-- Ulaşılan: 
+---
+
+### 2. Sprint Puanı
+- Beklenen: 58 + 5 = 63
+- Ulaşılan: 52
+
+### Sprint Retrospective
+- 3.Sprint'e sarkan konular konuşulup planlanmıştır. Tüm görevler değerlendirildiğinde 3.sprintte tamamlanması beklenen backlog puanı 44'tür.
+- Oyunun tamamlanmış olan sahnelerini birleştirip sonrasında birlikte online toplantılarla finalize etmek adına 25.07.2024 Perşembe günü takım toplantısı yapılmasına karar verilmiştir.
+
+
+![Soda makinesi](https://github.com/user-attachments/assets/20eae567-5ce7-4baa-822c-f73dc1c894b7)
+![SettingsMenu-TR](https://github.com/user-attachments/assets/be4003d3-7446-48bb-9819-d81bb453343b)
+![MainMenu-EN](https://github.com/user-attachments/assets/601b209f-5fe2-4cca-aa27-b8a3fb7c1263)
+![lisa_render](https://github.com/user-attachments/assets/482b2bdd-e1df-4567-a16a-8c5369b0a0e7)
+![harry_render](https://github.com/user-attachments/assets/d0531b9e-9728-4c0f-89ca-dd0624bf6653)
+![Diyalog1](https://github.com/user-attachments/assets/b5b6aad8-cd6d-4bc2-8954-cf1cb46576b7)
+![Dart](https://github.com/user-attachments/assets/d3b43d1e-f558-4bde-b7f1-6a13b8331bd1)
+![Benzinlik2](https://github.com/user-attachments/assets/14e6c076-84eb-4bc4-86eb-fec0aab6052d)
+![Benzinlik1](https://github.com/user-attachments/assets/0bff8707-8f0e-493c-8b7f-2bca31595a0b)
+![Bar](https://github.com/user-attachments/assets/9790873a-adfc-4eb5-9b7d-893a69f52b72)
+![Arcade2](https://github.com/user-attachments/assets/ae0d7616-5d89-4ec0-8215-4db70733e727)
+![Arcade1](https://github.com/user-attachments/assets/05dd8f16-8dd6-4db4-8a31-c5084c171894)
+
