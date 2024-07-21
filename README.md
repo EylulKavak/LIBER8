@@ -160,6 +160,7 @@ https://drive.google.com/drive/folders/1BwcHLs77xOdIl5vW5WtQgvMF4YYkLxrN?usp=dri
 
 ### Daily Scrum
 Daily Scrum görüşmeleri Discord üzerinden yapılmıştır.
+https://drive.google.com/drive/folders/1p2Qg5w7T4HQeB_xOFwQFQgcujSizStjW
 
 ### İş Takibi
 İş takibi için Trello kullanılmıştır.
