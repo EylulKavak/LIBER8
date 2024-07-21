@@ -17,8 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: "Assets/Scenes/ArcadeMen\xFC.unity"
+    guid: 4936c5815749f22488bfdbfaec98f5a7
+  - enabled: 1
+    path: Assets/Scenes/ArcadeGame.unity
+    guid: ff499eaf7a3c52b4d943ac1e80386a75
+  - enabled: 1
+    path: Assets/Scenes/ArcadeGameOver.unity
+    guid: f04ca4015079d7a4295e9180d860d604
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 6ad46d42dbdf0c8418cdfcd8c5c82b76,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: de6fd978b2f3b9c4f885ebbc9f1d5e23,
       type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 8f2cb7efc49c22d488be7bfd0b0e0a8c,
       type: 2}
