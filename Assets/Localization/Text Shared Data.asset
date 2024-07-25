@@ -13,97 +13,69 @@ MonoBehaviour:
   m_Name: Text Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: Text
-  m_TableCollectionNameGuidString: c33ab568bb0b55d45882d15459a36d0d
+  m_TableCollectionNameGuidString: fef24a9bc0ff69046b16ffac30a37ac6
   m_Entries:
-  - m_Id: 14013153280
-    m_Key: JD1
+  - m_Id: 67933691904
+    m_Key: Start Game
     m_Metadata:
       m_Items: []
-  - m_Id: 182175383552
-    m_Key: JD2
+  - m_Id: 1722267852800
+    m_Key: Quit
     m_Metadata:
       m_Items: []
-  - m_Id: 410433601536
-    m_Key: JD3
+  - m_Id: 1768333893632
+    m_Key: Back
     m_Metadata:
       m_Items: []
-  - m_Id: 597373730816
-    m_Key: JD4
+  - m_Id: 1823816146944
+    m_Key: Settings
     m_Metadata:
       m_Items: []
-  - m_Id: 655175434240
-    m_Key: JD5
+  - m_Id: 2755232653312
+    m_Key: Settings Menu
     m_Metadata:
       m_Items: []
-  - m_Id: 969995698176
-    m_Key: JD6
+  - m_Id: 3013429813248
+    m_Key: Resolution
     m_Metadata:
       m_Items: []
-  - m_Id: 1012140064768
-    m_Key: JD7
+  - m_Id: 3063627243520
+    m_Key: Quality
     m_Metadata:
       m_Items: []
-  - m_Id: 995893536866304
-    m_Key: MCONTINUE
+  - m_Id: 3119327600640
+    m_Key: Volume
     m_Metadata:
       m_Items: []
-  - m_Id: 995960289214464
-    m_Key: MNEWGAME
+  - m_Id: 3164126961664
+    m_Key: Brigthness
     m_Metadata:
       m_Items: []
-  - m_Id: 996037363744768
-    m_Key: MSETTINGS
+  - m_Id: 3241335709696
+    m_Key: English
     m_Metadata:
       m_Items: []
-  - m_Id: 996073715777536
-    m_Key: MEXIT
+  - m_Id: 3447427031040
+    m_Key: Turkish
     m_Metadata:
       m_Items: []
-  - m_Id: 1017268372750336
-    m_Key: SRESOLUTION
+  - m_Id: 4159221391360
+    m_Key: Language
     m_Metadata:
       m_Items: []
-  - m_Id: 1017514687447040
-    m_Key: SQUALITY
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1017570043871232
-    m_Key: SSOUND
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1017589962620928
-    m_Key: SBRIGHTNESS
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1018358430416896
-    m_Key: MBACK
-    m_Metadata:
-      m_Items: []
-  - m_Id: 7263984428236800
-    m_Key: BE1
-    m_Metadata:
-      m_Items: []
-  - m_Id: 7264203144413184
-    m_Key: BE2
-    m_Metadata:
-      m_Items: []
-  - m_Id: 7264340063272960
-    m_Key: BE3
-    m_Metadata:
-      m_Items: []
-  - m_Id: 7966045985816576
-    m_Key: PRESSF
+  - m_Id: 4338813100032
+    m_Key: Apply
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 6726741232880713752
+    rid: 2484581117166354456
   references:
     version: 2
     RefIds:
-    - rid: 6726741232880713752
+    - rid: 2484581117166354456
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1719259098439
+        m_CustomEpoch: 1721224996286

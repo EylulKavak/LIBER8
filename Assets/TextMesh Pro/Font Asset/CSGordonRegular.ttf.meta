@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f37655472c736e2428657d7c0745be48
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - CS Gordon
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cd80360a096692241a7d3c1a1e045c02, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

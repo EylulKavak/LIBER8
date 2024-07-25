@@ -14,98 +14,60 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: en
-  m_SharedData: {fileID: 11400000, guid: c33ab568bb0b55d45882d15459a36d0d, type: 2}
+  m_SharedData: {fileID: 11400000, guid: fef24a9bc0ff69046b16ffac30a37ac6, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 14013153280
-    m_Localized: Tonight... tonight I will either be free or I will die here. But
-      no matter what, I will reveal the truth.
+  - m_Id: 67933691904
+    m_Localized: Start Game
     m_Metadata:
       m_Items: []
-  - m_Id: 182175383552
-    m_Localized: Hey! Is anyone awake?
+  - m_Id: 1722267852800
+    m_Localized: Quit
     m_Metadata:
       m_Items: []
-  - m_Id: 410433601536
-    m_Localized: OK John, it's now or never.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 597373730816
-    m_Localized: John, this is very dangerous. If the guards catch you...
-    m_Metadata:
-      m_Items: []
-  - m_Id: 655175434240
-    m_Localized: They won't catch it. This is my only chance.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 969995698176
-    m_Localized: I'm free. Now I need to find the truth and justify myself.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1012140064768
-    m_Localized: Let the journey begin.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 995893536866304
-    m_Localized: Continue
-    m_Metadata:
-      m_Items: []
-  - m_Id: 995960289214464
-    m_Localized: New Game
-    m_Metadata:
-      m_Items: []
-  - m_Id: 996037363744768
-    m_Localized: Settings
-    m_Metadata:
-      m_Items: []
-  - m_Id: 996073715777536
-    m_Localized: Exit
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1017268372750336
-    m_Localized: Resolution
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1017514687447040
-    m_Localized: Quality
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1017570043871232
-    m_Localized: Sound
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1017589962620928
-    m_Localized: Brightness
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1018358430416896
+  - m_Id: 1768333893632
     m_Localized: Back
     m_Metadata:
       m_Items: []
-  - m_Id: 7263984428236800
-    m_Localized: '25 years... I was locked in a cell for 25 years. Every day
-
-      the
-      same four walls. I couldn''t prove to anyone that I was innocent. (Takes a
-      deep breath) But now
-
-      I''m free. I will do my best to reveal the truth.'
+  - m_Id: 1823816146944
+    m_Localized: Settings
     m_Metadata:
       m_Items: []
-  - m_Id: 7264203144413184
-    m_Localized: 'But what will I do? I only have a few pennies in my pocket. One
-      to stay
-
-      I need to find a place. And right away.'
+  - m_Id: 2755232653312
+    m_Localized: Settings Menu
     m_Metadata:
       m_Items: []
-  - m_Id: 7264340063272960
-    m_Localized: This is it! Maybe this could be a start for me.
+  - m_Id: 3013429813248
+    m_Localized: Resolution
     m_Metadata:
       m_Items: []
-  - m_Id: 7966045985816576
-    m_Localized: Press F to Talk
+  - m_Id: 3063627243520
+    m_Localized: Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3119327600640
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3164126961664
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241335709696
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3447427031040
+    m_Localized: Turkish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4159221391360
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4338813100032
+    m_Localized: Apply
     m_Metadata:
       m_Items: []
   references:

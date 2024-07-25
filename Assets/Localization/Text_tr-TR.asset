@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Text_tr-TR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr-TR
+  m_SharedData: {fileID: 11400000, guid: fef24a9bc0ff69046b16ffac30a37ac6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 67933691904
+    m_Localized: "Oyunu Ba\u015Flat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722267852800
+    m_Localized: "\xC7\u0131k\u0131\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1768333893632
+    m_Localized: Geri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1823816146944
+    m_Localized: Ayarlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2755232653312
+    m_Localized: "Ayarlar Men\xFCs\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3013429813248
+    m_Localized: "\xC7\xF6z\xFCn\xFCrl\xFCk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3063627243520
+    m_Localized: Kalite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3119327600640
+    m_Localized: Ses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3164126961664
+    m_Localized: "Parlakl\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241335709696
+    m_Localized: "\u0130ngilizce"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3447427031040
+    m_Localized: "T\xFCrk\xE7e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4159221391360
+    m_Localized: Dil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4338813100032
+    m_Localized: Uygula
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
