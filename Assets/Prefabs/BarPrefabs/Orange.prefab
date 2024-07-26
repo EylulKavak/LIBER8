@@ -3,9 +3,8 @@
 --- !u!1 &2124413070194985190
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 533968775904184042, guid: 1b3ffe3a5f0e78746a0efe5bfa625dbb,
-    type: 3}
-  m_PrefabInstance: {fileID: 747511291598435612}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -22,9 +21,8 @@ GameObject:
 --- !u!4 &2129174861595244002
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8266315494232428324, guid: 1b3ffe3a5f0e78746a0efe5bfa625dbb,
-    type: 3}
-  m_PrefabInstance: {fileID: 747511291598435612}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124413070194985190}
   m_LocalRotation: {x: 0.030622873, y: -0.016397662, z: -0.0005024468, w: 0.9993964}
@@ -38,18 +36,16 @@ Transform:
 --- !u!33 &5288588348940895605
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8527196520169261026, guid: 1b3ffe3a5f0e78746a0efe5bfa625dbb,
-    type: 3}
-  m_PrefabInstance: {fileID: 747511291598435612}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124413070194985190}
   m_Mesh: {fileID: -2432090755550338912, guid: 333f8e9b97296d44da96bad6e522d842, type: 3}
 --- !u!23 &4672414696439977851
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3888413236640764393, guid: 1b3ffe3a5f0e78746a0efe5bfa625dbb,
-    type: 3}
-  m_PrefabInstance: {fileID: 747511291598435612}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124413070194985190}
   m_Enabled: 1
@@ -112,71 +108,10 @@ Transform:
   m_GameObject: {fileID: 5401634384142644084}
   m_LocalRotation: {x: -0.030622873, y: 0.016397662, z: 0.00050244684, w: 0.9993964}
   m_LocalPosition: {x: -3.568, y: 2.336, z: -0.113}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2129174861595244002}
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &747511291598435612
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 9193767642245470549}
-    m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: m_Name
-      value: OrangeObject
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.x
-      value: -0.03283571
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.y
-      value: -0.46998584
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.z
-      value: 0.08336445
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.w
-      value: 0.9993964
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.x
-      value: 0.030622873
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.y
-      value: -0.016397662
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.z
-      value: -0.0005024468
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 0}

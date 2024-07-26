@@ -31,7 +31,7 @@ public class Customer : MonoBehaviour, IInteractable
         }
     }
 
-    private void GenerateOrder()
+    public void GenerateOrder()
     {
         orderedFruit = fruits[Random.Range(0, fruits.Length)];
         orderedSoda = sodas[Random.Range(0, sodas.Length)];
