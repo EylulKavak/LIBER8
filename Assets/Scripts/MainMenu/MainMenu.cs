@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
             }
         }
 
-        // Oyunu başlatma mantığınız burada olacak
+  
         // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 

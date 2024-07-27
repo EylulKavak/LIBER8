@@ -12,7 +12,7 @@ public class MusicPlayer : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
             audioSource = GetComponent<AudioSource>();
-            audioSource.volume = PlayerPrefs.GetFloat("Volume", 1f); // Ses seviyesini başlangıçta ayarlayın
+            audioSource.volume = PlayerPrefs.GetFloat("Volume", 1f); 
         }
         else if (instance != this)
         {

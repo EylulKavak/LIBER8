@@ -15,7 +15,7 @@ public class MenuManager : MonoBehaviour
     public TMP_Dropdown resDropDown, qualityDropdown;
     public Slider volumeSlider, brightnessSlider;
     public AudioMixer mixer;
-    public Volume globalVolume; // Bu alanı atadığınızdan emin olun
+    public Volume globalVolume; 
     private LiftGammaGain liftGammaGain;
     [HideInInspector] public string volume = "Volume", resolution = "Resolution", quality = "QualityLevel", mouse = "MouseSensitivity", brightness = "Brightness";
 
