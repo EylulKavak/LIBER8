@@ -4,7 +4,44 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/JailInterior.unity
+    guid: d7ad4c2c3316975468db0b916c378dcf
+  - enabled: 1
+    path: Assets/Scenes/JailOutdoor.unity
+    guid: a7824b3824f9fd24e9bfcf1334a29504
+  - enabled: 1
+    path: Assets/Scenes/BarEntranceCutscene.unity
+    guid: f135656def5437c4796077f1c47354ab
+  - enabled: 1
+    path: Assets/Scenes/BarScene1.unity
+    guid: d4c7aa04aa9eeda41b350c6318246711
+  - enabled: 1
+    path: Assets/Scenes/BarScene2.unity
+    guid: a4f11bd5e10992941a9e42ad60680b09
+  - enabled: 1
+    path: Assets/Scenes/BarScene3.unity
+    guid: d32dd717a7c7c474baac5214a8eb917b
+  - enabled: 1
+    path: Assets/Scenes/GasStationScene1.unity
+    guid: 3d486e5a9f72dbc409d67e7b8503cf2d
+  - enabled: 1
+    path: Assets/Scenes/GasStationScene2.unity
+    guid: e57b7af0de2232e4b8dc83a0edffa45e
+  - enabled: 1
+    path: Assets/Scenes/Road.unity
+    guid: 9adf9dfd875869342af427cbd74d8105
+  - enabled: 1
+    path: Assets/Scenes/Storage.unity
+    guid: 77f5769f7c13d3d419204eb5079f884e
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: da68c3f47c96f1b41a5d8963dd15c78a
   m_configObjects:
-    com.unity.addressableassets: {fileID: 11400000, guid: c85d25d420a7e9245bcf93977e88fdd4,
+    com.unity.addressableassets: {fileID: 11400000, guid: 6ad46d42dbdf0c8418cdfcd8c5c82b76,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: de6fd978b2f3b9c4f885ebbc9f1d5e23,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 8f2cb7efc49c22d488be7bfd0b0e0a8c,
       type: 2}
