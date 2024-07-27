@@ -70,6 +70,35 @@ MonoBehaviour:
     m_Localized: Uygula
     m_Metadata:
       m_Items: []
+  - m_Id: 3465986615263232
+    m_Localized: "John, neredesin? Seni bir s\xFCredir ar\u0131yorum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3466014314446848
+    m_Localized: "Lisa, \u015Fu an \xE7ok \xF6nemli bir \u015Fey yap\u0131yorum.
+      Benzinlikten ayr\u0131lan bir adam\u0131\r takip ediyorum. Birazdan daha bilgi
+      verece\u011Fim."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3466040130387968
+    m_Localized: "Kim bu adam? Ne yap\u0131yorsun sen?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3466120853962752
+    m_Localized: "Bu adam, 25 y\u0131l \xF6nce patronumu \xF6ld\xFCren ve su\xE7u
+      bana atan ki\u015Fi olabilir. Onu\r yakalay\u0131p ger\xE7e\u011Fi \xF6\u011Frenmeliyim.\r
+      B\xFCy\xFCk bir deponun otopark\u0131na girdi. San\u0131r\u0131m vard\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3466146791538688
+    m_Localized: Dikkatli ol, John. Bu adam tehlikeli olabilir. Neredesin tam olarak?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3466162801197056
+    m_Localized: "Konumu mesaj at\u0131yorum. \u015Eimdi deponun i\xE7ine girece\u011Fim,
+      sana sonra\r haber verece\u011Fim.\r"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

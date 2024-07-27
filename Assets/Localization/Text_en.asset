@@ -70,6 +70,35 @@ MonoBehaviour:
     m_Localized: Apply
     m_Metadata:
       m_Items: []
+  - m_Id: 3465986615263232
+    m_Localized: John, where are you? I've been looking for you for a while.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3466014314446848
+    m_Localized: Lisa, I'm doing something very important right now. I'm following
+      a man leaving a gas station. I'll give you more information in a moment.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3466040130387968
+    m_Localized: Who is this man? What are you doing?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3466120853962752
+    m_Localized: This guy could be the one who killed his boss 25 years ago and framed
+      you. I have to catch him and find out the truth. He pulled into a parking lot
+      of a large warehouse. I think we're there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3466146791538688
+    m_Localized: Be careful, John. This man could be dangerous. Where exactly are
+      you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3466162801197056
+    m_Localized: I'm texting the location. I'm going into the warehouse now, I'll
+      let you know later.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
