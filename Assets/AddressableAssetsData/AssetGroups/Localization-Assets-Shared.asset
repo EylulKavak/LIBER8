@@ -17,7 +17,7 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 23373f66d1dc0164793eb89a414fa9e4
   m_SerializeEntries:
-  - m_GUID: fef24a9bc0ff69046b16ffac30a37ac6
+  - m_GUID: c33ab568bb0b55d45882d15459a36d0d
     m_Address: Assets/Localization/Text Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []

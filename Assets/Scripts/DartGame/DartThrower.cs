@@ -34,6 +34,9 @@ public class DartThrower : MonoBehaviour
     public GameObject startPanel;
     public Button startButton;
 
+    // Yeni eklenen buton
+    public Button loadSceneButton;
+
     void Start()
     {
         // Set the dartboard area centers relative to the dartBoard's position
@@ -42,20 +45,25 @@ public class DartThrower : MonoBehaviour
         middleRingCenter = dartBoard.position;
         innerRingCenter = dartBoard.position;
 
-        // Initialize the score text
         UpdateScoreText();
 
-        // Hide game over panel at start
         gameOverPanel.SetActive(false);
 
-        // Show start panel at start
         startPanel.SetActive(true);
 
-        // Assign restart button click event
         restartButton.onClick.AddListener(RestartGame);
 
-        // Assign start button click event
         startButton.onClick.AddListener(StartGame);
+
+        // Yeni butonun tıklama olayını atayın
+        if (loadSceneButton != null)
+        {
+            loadSceneButton.onClick.AddListener(LoadYourScene);
+        }
+        else
+        {
+            Debug.LogError("LoadSceneButton is not assigned!");
+        }
     }
 
     void Update()
@@ -113,7 +121,6 @@ public class DartThrower : MonoBehaviour
         rb.AddForce(direction * throwForce, ForceMode.VelocityChange);
         Debug.Log("Darts thrown!");
 
-        // Puanlama için bir yöntem çağırabiliriz
         StartCoroutine(CalculateScore(dart));
     }
 
@@ -174,5 +181,10 @@ public class DartThrower : MonoBehaviour
     {
         // Hide start panel and start the game
         startPanel.SetActive(false);
+    }
+
+    void LoadYourScene()
+    {
+        SceneManager.LoadScene("BarScene2");
     }
 }

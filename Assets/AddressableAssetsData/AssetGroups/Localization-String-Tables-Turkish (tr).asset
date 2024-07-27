@@ -15,17 +15,16 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Turkish (tr)
   m_Data:
     m_SerializedData: []
-  m_GUID: b135b6428fe1e9b4b8a659b8173a812b
+  m_GUID: 76592527849d4fc4f963722571e120a6
   m_SerializeEntries:
   - m_GUID: 4c4ed021747893c449f12715ae731c57
     m_Address: Text_tr
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 905d4c8219121244984d66c24695c3d2, type: 2}
+  m_Settings: {fileID: 11400000, guid: 7adb56ca848531b4093baa15ea14d676, type: 2}
   m_SchemaSet:
     m_Schemas:
     - {fileID: 11400000, guid: df5629624484eb84bb072f9a9afcffe6, type: 2}

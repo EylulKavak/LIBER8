@@ -119,6 +119,40 @@ MonoBehaviour:
     m_Key: ROAD6
     m_Metadata:
       m_Items: []
+  - m_Id: 11941894827925504
+    m_Key: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11941913870065664
+    m_Key: Game Over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11941932555689984
+    m_Key: Restart Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11942261301043200
+    m_Key: Continue The Story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11942340023934976
+    m_Key: "Game Rules:\n- Each player has 3 throws.\nScoring system:\n  - Bullseye
+      (center): 50 points\n  - Outer ring: 25 points\n  - Middle ring: 10 points\n 
+      - Inner ring: 5 points\nGood luck!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11942463839789056
+    m_Key: Start Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11942691997343744
+    m_Key: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11944462421450752
+    m_Key: Turkish
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

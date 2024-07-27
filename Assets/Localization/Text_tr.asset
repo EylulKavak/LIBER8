@@ -105,6 +105,41 @@ MonoBehaviour:
     m_Localized: "Konu\u015Fmak \u0130\xE7in F'ye bas"
     m_Metadata:
       m_Items: []
+  - m_Id: 11941894827925504
+    m_Localized: Skor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11941913870065664
+    m_Localized: Oyun Bitti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11941932555689984
+    m_Localized: "Oyunu Yeniden Ba\u015Flat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11942261301043200
+    m_Localized: Hikayeye Devam Et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11942340023934976
+    m_Localized: "Oyun kurallar\u0131:\r\n- Her oyuncunun 3 at\u0131\u015F hakk\u0131
+      vard\u0131r.\r\nSkor sistemi:\r\n  - Bullseye (ortada): 50 puan\r\n  - D\u0131\u015F
+      halka: 25 puan\r\n  - Orta halka: 10 puan\r\n  - \u0130\xE7 halka: 5 puan\r\n\u0130yi
+      \u015Fanslar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11942463839789056
+    m_Localized: "Oyunu Ba\u015Flat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11942691997343744
+    m_Localized: "\u0130ngilizce"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11944462421450752
+    m_Localized: "T\xFCrk\xE7e"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
