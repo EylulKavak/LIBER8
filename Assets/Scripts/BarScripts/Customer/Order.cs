@@ -1,27 +1,39 @@
 using UnityEngine;
 using TMPro;
 
-public class Customer : MonoBehaviour, IInteractable
+public class Order : MonoBehaviour, IInteractable
 {
-    public string[] fruits = {};
-    public string[] sodas = {};
-    public TMP_Text orderText; // UI Text to show order details
-    public TMP_Text timerText; // UI Text to show the remaining time
-    public TMP_Text warningText; // UI Text to show warning messages
+    public string[] fruits = {"Lemon", "Orange"};
+    public string[] sodas = {"Red", "Yellow", "Blue","Orange","Purple","Green"};
+    private TMP_Text orderText; // UI Text to show order details
+    private TMP_Text timerText; // UI Text to show the remaining time
+    private TMP_Text warningText; // UI Text to show warning messages
 
     private string orderedFruit;
     private string orderedSoda;
     private int orderedIce;
     private bool hasOrder = false;
+    private bool canOrder = true;
 
-    public Lives lives;
+    private Lives lives;
 
-    private float orderTimer = 30f; // 30 seconds timer
+    [SerializeField] private float orderTimer = 30f; // 30 seconds timer
     private bool timerRunning = false;
 
+    private void Start()
+    {
+        orderText = GameObject.Find("orderText").GetComponent<TMP_Text>();
+        timerText = GameObject.Find("timerText").GetComponent<TMP_Text>();
+        warningText = GameObject.Find("warning").GetComponent<TMP_Text>();
+        GameObject player = GameObject.Find("Player");
+        if (player != null)
+        {
+            lives = player.GetComponent<Lives>();
+        }
+    }
     public void Interact(PlayerInteract player)
     {
-        if (!hasOrder)
+        if (!hasOrder && canOrder)
         {
             GenerateOrder();
         }
@@ -51,7 +63,7 @@ public class Customer : MonoBehaviour, IInteractable
         }
     }
 
-    private void CheckOrder(PlayerInteract player)
+    public void CheckOrder(PlayerInteract player)
     {
         bool isOrderCorrect = true;
 
@@ -108,24 +120,20 @@ public class Customer : MonoBehaviour, IInteractable
             player.ReturnCup();
             hasOrder = false;
             timerRunning = false; // Stop the timer
-
-            // Clear the UI text
-            if (orderText != null)
-            {
-                orderText.text = "";
-            }
-            if (timerText != null)
-            {
-                timerText.text = "";
-            }
-            if (warningText != null)
-            {
-                warningText.text = "";
-            }
+            ClearUI();
         }
         else
         {
+            hasOrder = false;
+            timerRunning = false; // Stop the timer
+            ClearUI();
             lives.liveCount--;
+        }
+        canOrder = false;
+        CustomerAI customer = GetComponent<CustomerAI>(); // Adjust based on actual setup
+        if (customer != null)
+        {
+            customer.OrderCompleted();
         }
     }
 
@@ -153,16 +161,24 @@ public class Customer : MonoBehaviour, IInteractable
                 orderTimer = 30f; // Reset the timer for the next order
                 lives.liveCount--;
 
-                // Clear the UI text
-                if (orderText != null)
-                {
-                    orderText.text = "";
-                }
-                if (timerText != null)
-                {
-                    timerText.text = "";
-                }
+                ClearUI();
             }
+        }
+    }
+    private void ClearUI()
+    {
+        // Clear the UI text
+        if (orderText != null)
+        {
+            orderText.text = "";
+        }
+        if (timerText != null)
+        {
+            timerText.text = "";
+        }
+        if (warningText != null)
+        {
+            warningText.text = "";
         }
     }
 }

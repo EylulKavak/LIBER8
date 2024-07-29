@@ -12,8 +12,10 @@ public class VehicleManager : MonoBehaviour
     public float minSpawnTime = 100f; // Minimum spawn süresi
     public float maxSpawnTime = 150f; // Maksimum spawn süresi
     public int maxVehiclesPerFuelStation = 1; // Bir benzinlik noktasında maksimum araç sayısı
+    public int maxVehiclesToSpawn = 10; // Spawn edilecek maksimum araç sayısı
 
     private GameObject lastSpawnedVehiclePrefab; // Son spawn edilen araç prefab'ı
+    private int vehiclesSpawned = 0; // Spawn edilen toplam araç sayısı
 
     private void Start()
     {
@@ -22,15 +24,18 @@ public class VehicleManager : MonoBehaviour
 
     private IEnumerator SpawnVehicles()
     {
-        while (true)
+        while (vehiclesSpawned < maxVehiclesToSpawn)
         {
             // Araçları spawn et
             SpawnVehicle();
-            
+
             // Rastgele bir süre bekle
             float waitTime = Random.Range(minSpawnTime, maxSpawnTime);
             yield return new WaitForSeconds(waitTime);
         }
+
+        // Maksimum araç sayısına ulaşıldıysa, scripti kapat
+        gameObject.SetActive(false);
     }
 
     private void SpawnVehicle()
@@ -45,6 +50,8 @@ public class VehicleManager : MonoBehaviour
         lastSpawnedVehiclePrefab = vehiclePrefab; // Son araç prefab'ını güncelle
 
         GameObject vehicle = Instantiate(vehiclePrefab, spawnPoint.position, spawnPoint.rotation);
+        vehiclesSpawned++; // Spawn edilen araç sayısını artır
+
         NavMeshAgent agent = vehicle.GetComponent<NavMeshAgent>();
 
         if (agent != null)
@@ -83,7 +90,7 @@ public class VehicleManager : MonoBehaviour
     {
         // Boşta olan benzinlik noktalarını listele
         var availableStations = new List<Transform>();
-        
+
         foreach (Transform station in fuelStations)
         {
             if (station.childCount < maxVehiclesPerFuelStation)

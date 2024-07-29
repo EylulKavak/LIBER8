@@ -10,15 +10,17 @@ public class Vehicle : MonoBehaviour
     private GasPumpUI gasPumpUI;
     public bool carFuelled = false;
     public bool isFilledOnce = false;
+    private Transform despawnPoint;
 
     private void Start()
     {
+        despawnPoint = GameObject.Find("DespawnPosition").transform;
         // NavMeshAgent ve CarFuelPump referanslarını al
         agent = GetComponent<NavMeshAgent>();
         carFuelPump = GetComponentInChildren<CarFuelPump>();
         
-        // Find the GasPumpUI object and get the GasPumpUI component from its child
-        GameObject gasPumpUIObject = GameObject.Find("GasPumpUI"); // Adjust the name if necessary
+        // GasPumpUI objesini bul ve GasPumpUI bileşenini al
+        GameObject gasPumpUIObject = GameObject.Find("GasPumpUI"); // Gerekirse ismi ayarla
         if (gasPumpUIObject != null)
         {
             gasPumpUI = gasPumpUIObject.GetComponent<GasPumpUI>();
@@ -27,21 +29,11 @@ public class Vehicle : MonoBehaviour
         {
             Debug.LogError("GasPumpUI object not found!");
         }
-
-        if (agent == null)
-        {
-            Debug.LogError("NavMeshAgent component not found in children.");
-        }
-        
-        if (carFuelPump == null)
-        {
-            Debug.LogError("CarFuelPump component not found in children.");
-        }
     }
 
     private void Update()
     {
-        // Check if the agent or its destination is still valid
+        StartCoroutine(WaitAndDestroy());
         if (agent != null)
         {
             if (carFuelPump != null && carFuelPump.pumpNuzzleHolder.childCount == 1 && Input.GetKey(KeyCode.H))
@@ -51,25 +43,19 @@ public class Vehicle : MonoBehaviour
 
             if (isFilledOnce && carFuelPump.pumpNuzzleHolder.childCount == 0)
             {
-                // Arabanın benzini dolduruldu anlamına gelir
                 carFuelled = true;
             }
 
             if (carFuelled)
             {
-                // Araç benzin aldıysa
                 if (agent != null)
                 {
                     isFilledOnce = false;
-                    // Araç, benzinlik noktasının childından çıkacak
-                    transform.SetParent(null);
+                    transform.SetParent(null); // Araç benzinlik noktasının childından çıkacak
 
-                    // Despawn noktasına hareket et
-                    Transform despawnPoint = GameObject.Find("DespawnPosition")?.transform;
                     if (despawnPoint != null)
                     {
                         agent.SetDestination(despawnPoint.position);
-                        // Araç hızını 15 yap
                         agent.speed = 15f;
                     }
                     else
@@ -79,5 +65,15 @@ public class Vehicle : MonoBehaviour
                 }
             }
         }
+    }
+
+    private IEnumerator WaitAndDestroy()
+    {
+        // Despawn noktasına ulaşıldığında biraz bekleyip aracı yok eder
+        while (Vector3.Distance(transform.position, despawnPoint.position) > 1f)
+        {
+            yield return null; // Bir sonraki frame'e kadar bekle
+        }
+        Destroy(gameObject); // Aracı yok et
     }
 }

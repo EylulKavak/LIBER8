@@ -10,7 +10,7 @@ public class GasPumpUI : MonoBehaviour
     public Image targetImage; // Hedef benzini gösterecek image
     public TextMeshProUGUI feedbackText; // Geri bildirim için TextMeshPro bileşeni
     public AudioSource fillingSound; // Dolum sesi için AudioSource
-    private GameObject character;
+    private GameObject player;
     private Lives lives;
     private float currentFuel;
     private float targetFuel;
@@ -23,8 +23,8 @@ public class GasPumpUI : MonoBehaviour
 
     void Start()
     {
-        character = GameObject.Find("Character");
-        lives = character.GetComponent<Lives>();
+        player = GameObject.Find("Player");
+        lives = player.GetComponent<Lives>();
         // Başlangıçta slider ve hedef görüntüsünü gizle
         fuelSlider.gameObject.SetActive(false);
         targetImage.gameObject.SetActive(false);
