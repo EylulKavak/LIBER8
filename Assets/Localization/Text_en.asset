@@ -142,6 +142,44 @@ MonoBehaviour:
     m_Localized: Turkish
     m_Metadata:
       m_Items: []
+  - m_Id: 12640073480650752
+    m_Localized: OK deal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640063712116736
+    m_Localized: Do we have an agreement?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640053452849152
+    m_Localized: We're gonna finish this. You know what's going on in the city.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640043524931584
+    m_Localized: This could be very risky. I'm still scared.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640033727037440
+    m_Localized: You have information about the changes in the city. I need you to
+      help me with this.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640023849451520
+    m_Localized: I haven't seen you for years. Why did you come now?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640015792193536
+    m_Localized: We need to talk about some issues from the past. I have a proposition
+      for you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640005822332928
+    m_Localized: Welcome. How can I help you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12639988722155520
+    m_Localized: Who is this man? What is he doing here?
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -1504,7 +1504,7 @@ MonoBehaviour:
     FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 256
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -2024,7 +2024,7 @@ MonoBehaviour:
     FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 256
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -2129,7 +2129,7 @@ MonoBehaviour:
     FieldOfView: 40.48996
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 256
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -6673,7 +6673,12 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'mixamorig:LeftFoot'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
+    'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:RightArm'\n\tTransform
+    'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftShoulder'\n\tTransform 'mixamorig:RightHandIndex3'\n\tTransform
+    'mixamorig:RightFoot'\n\tTransform 'mixamorig:Head'\n\tand more ..."
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -7524,7 +7529,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 256
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -9312,7 +9317,7 @@ MonoBehaviour:
     FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 256
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}

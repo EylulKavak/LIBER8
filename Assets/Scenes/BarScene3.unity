@@ -14318,7 +14318,7 @@ MonoBehaviour:
     FieldOfView: 60.000004
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 256
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -43774,7 +43774,7 @@ MonoBehaviour:
     FieldOfView: 60.000004
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 256
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -48763,7 +48763,7 @@ MonoBehaviour:
     FieldOfView: 60.000004
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 256
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}

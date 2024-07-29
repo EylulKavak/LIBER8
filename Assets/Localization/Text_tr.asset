@@ -140,6 +140,45 @@ MonoBehaviour:
     m_Localized: "T\xFCrk\xE7e"
     m_Metadata:
       m_Items: []
+  - m_Id: 12639988722155520
+    m_Localized: "Bu adam kim? Ne i\u015Fi var burada?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640005822332928
+    m_Localized: "Ho\u015F geldiniz. Size nas\u0131l yard\u0131mc\u0131 olabilirim?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640015792193536
+    m_Localized: "Ge\xE7mi\u015Ften gelen baz\u0131 konular\u0131 konu\u015Fmam\u0131z
+      gerekiyor.\rSana bir teklifim var.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640023849451520
+    m_Localized: "Seni y\u0131llard\u0131r g\xF6rmemi\u015Fim. Neden \u015Fimdi geldin?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640033727037440
+    m_Localized: "\u015Eehirdeki de\u011Fi\u015Fimler hakk\u0131nda bilgilerin var.
+      Senin bu konuda bana yard\u0131mc\u0131 olman gerekiyor.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640043524931584
+    m_Localized: "Bu \xE7ok riskli olabilir. Ben hala korkuyorum.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640053452849152
+    m_Localized: "Bu i\u015Fi bitirece\u011Fiz. \u015Eehirde neler olup bitti\u011Fini
+      biliyorsun."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640063712116736
+    m_Localized: "Anla\u015Ft\u0131k m\u0131?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12640073480650752
+    m_Localized: "Peki, anla\u015Ft\u0131k.\r"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
