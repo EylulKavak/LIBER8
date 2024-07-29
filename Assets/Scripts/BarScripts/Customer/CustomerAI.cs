@@ -1,6 +1,6 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
-using System.Collections;
 
 public class CustomerAI : MonoBehaviour
 {
@@ -8,7 +8,11 @@ public class CustomerAI : MonoBehaviour
     private CustomerSpawner customerSpawner;
     private NavMeshAgent agent;
     private Transform despawnPoint;
-
+    Animator animator;
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -46,5 +50,9 @@ public class CustomerAI : MonoBehaviour
             yield return null;
         }
         Destroy(gameObject);
+    }
+    private void Update()
+    {
+        animator.SetFloat("Speed", Mathf.Sqrt(Mathf.Pow(agent.velocity.x, 2) + Mathf.Pow(agent.velocity.z, 2)));
     }
 }
