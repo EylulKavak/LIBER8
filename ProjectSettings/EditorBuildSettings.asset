@@ -27,6 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/GasStationScene1.unity
     guid: 3d486e5a9f72dbc409d67e7b8503cf2d
   - enabled: 1
+    path: Assets/Scenes/ArcadeGame.unity
+    guid: ff499eaf7a3c52b4d943ac1e80386a75
+  - enabled: 1
+    path: Assets/Scenes/ArcadeGameOver.unity
+    guid: f04ca4015079d7a4295e9180d860d604
+  - enabled: 1
     path: Assets/Scenes/GasStationScene2.unity
     guid: e57b7af0de2232e4b8dc83a0edffa45e
   - enabled: 1

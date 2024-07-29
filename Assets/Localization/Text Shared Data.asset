@@ -189,6 +189,14 @@ MonoBehaviour:
     m_Key: GS9
     m_Metadata:
       m_Items: []
+  - m_Id: 12662206936104960
+    m_Key: CD1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12662222010433536
+    m_Key: CD2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

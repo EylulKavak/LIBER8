@@ -179,6 +179,10 @@ MonoBehaviour:
     m_Localized: "Peki, anla\u015Ft\u0131k.\r"
     m_Metadata:
       m_Items: []
+  - m_Id: 12662206936104960
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
