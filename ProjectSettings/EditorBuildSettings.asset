@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BarScene1.unity
     guid: d4c7aa04aa9eeda41b350c6318246711
   - enabled: 1
+    path: Assets/Scenes/DartPlay.unity
+    guid: 6a3cb5d335fea6f48b122eddfaaec609
+  - enabled: 1
     path: Assets/Scenes/BarScene2.unity
     guid: a4f11bd5e10992941a9e42ad60680b09
   - enabled: 1

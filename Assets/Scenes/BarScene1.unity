@@ -1160,7 +1160,7 @@ RectTransform:
   - {fileID: 1725301806}
   - {fileID: 835816848}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4361,7 +4361,7 @@ MonoBehaviour:
     FieldOfView: 60.000004
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 256
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -4390,7 +4390,7 @@ Transform:
   m_Children:
   - {fileID: 362147468}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &162097526
 PrefabInstance:
@@ -6150,7 +6150,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &246881418
 PrefabInstance:
@@ -6427,7 +6427,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b4f8e707192b7ce4ebac1cd94cd2660a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b4f8e707192b7ce4ebac1cd94cd2660a,
         type: 3}
@@ -7967,7 +7967,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 256
   field of view: 60.000004
   orthographic: 0
   orthographic size: 5
@@ -7999,7 +7999,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &299122696
 PrefabInstance:
@@ -9343,7 +9343,7 @@ MonoBehaviour:
     Value: 0
     m_SpeedMode: 1
     m_MaxSpeed: 0.5
-    m_AccelTime: 0.1
+    m_AccelTime: 0
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
     m_InputAxisValue: 0
@@ -9367,7 +9367,7 @@ MonoBehaviour:
     Value: 0
     m_SpeedMode: 1
     m_MaxSpeed: 0.5
-    m_AccelTime: 0.1
+    m_AccelTime: 0
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
@@ -10387,7 +10387,7 @@ Transform:
   m_Children:
   - {fileID: 2125531882}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &391060123
 MonoBehaviour:
@@ -12427,6 +12427,141 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 448710054}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &451654489
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1561949107}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.153
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.61398
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_Name
+      value: 3D RightArrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 451654492}
+  m_SourcePrefab: {fileID: 100100000, guid: 215cd824695b5554fb06bcc6cbfe3901, type: 3}
+--- !u!4 &451654490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+    type: 3}
+  m_PrefabInstance: {fileID: 451654489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &451654491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
+    type: 3}
+  m_PrefabInstance: {fileID: 451654489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &451654492
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451654491}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5475578334d1604c8fc4c6caca0693e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &452321711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16194,6 +16329,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 739779277}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 0
   TMPFont: {fileID: 0}
   Icon: {fileID: 21300000, guid: 99c1b255dc28e6e4db990ed880ca110b, type: 3}
@@ -16299,6 +16446,30 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7915555842047066680}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 451654491}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   NodeID: 8
   TMPFont: {fileID: 0}
@@ -19733,6 +19904,135 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 730538880}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &739779275
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.931
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -144.109
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_Name
+      value: 3D RightArrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 739779278}
+  m_SourcePrefab: {fileID: 100100000, guid: 215cd824695b5554fb06bcc6cbfe3901, type: 3}
+--- !u!1 &739779277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
+    type: 3}
+  m_PrefabInstance: {fileID: 739779275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &739779278
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739779277}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5475578334d1604c8fc4c6caca0693e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &751400934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20289,7 +20589,7 @@ Transform:
   - {fileID: 1561949107}
   - {fileID: 1217058144}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &771064997
 PrefabInstance:
@@ -23416,7 +23716,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &910725290
 PrefabInstance:
@@ -26592,23 +26892,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 12
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-52,\"yPos\":-421},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Merhaba.
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":226.5,\"yPos\":157},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Merhaba.
     Ben i\u015F ilan\u0131n\u0131z\u0131 g\xF6rd\xFCm. Barmen olarak \xE7al\u0131\u015Fmak\\r\\nistiyorum.
-    Ama... ama bir sorunum var. Kalacak yerim yok ve \xE7ok az param var.\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-24,\"yPos\":-206},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"John.
-    John Miller.\\r\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-11,\"yPos\":-11},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Anl\u0131yorum.
+    Ama... ama bir sorunum var. Kalacak yerim yok ve \xE7ok az param var.\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":254.5,\"yPos\":372},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"John.
+    John Miller.\\r\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":267.5,\"yPos\":567},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Anl\u0131yorum.
     Sadece bir \u015Fans istiyorum. Kendimi kan\u0131tlamak ve\\r\\nge\xE7mi\u015Fimden
-    ka\xE7mak i\xE7in de\u011Fil, onu d\xFCzeltmek i\xE7in buraday\u0131m.\",\"parentUIDs\":[4],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-1,\"yPos\":184},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Anlad\u0131m.
-    Te\u015Fekk\xFCr ederim, Jake\",\"parentUIDs\":[6],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":-41,\"yPos\":-556},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-    Ho\u015F geldin evlat. Yard\u0131mc\u0131 olabilir miyim?\\r\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-33,\"yPos\":-334},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Anlad\u0131m.
-    Ad\u0131n ne evlat?\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-32,\"yPos\":-120},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Pekala
+    ka\xE7mak i\xE7in de\u011Fil, onu d\xFCzeltmek i\xE7in buraday\u0131m.\",\"parentUIDs\":[4],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":277.5,\"yPos\":762},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Anlad\u0131m.
+    Te\u015Fekk\xFCr ederim, Jake\",\"parentUIDs\":[6],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":237.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    Ho\u015F geldin evlat. Yard\u0131mc\u0131 olabilir miyim?\\r\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":245.5,\"yPos\":244},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Anlad\u0131m.
+    Ad\u0131n ne evlat?\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":246.5,\"yPos\":458},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Pekala
     John. Burada \xE7al\u0131\u015Fman\u0131n yan\u0131 s\u0131ra bar\u0131n \xFCst
     kat\u0131nda k\xFC\xE7\xFCk bir oda var. Orada kalabilirsin. Ama \u015Funu bilmelisin,
     burada sadece \xE7al\u0131\u015Fmak yetmez.G\xFCvenmem gerekiyor. Ge\xE7mi\u015Finde
     neler ya\u015Fad\u0131\u011F\u0131n\u0131 bilmiyorum ama burada d\xFCr\xFCst
-    ve \xE7al\u0131\u015Fkan biri olman\u0131 beklerim.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-3,\"yPos\":83},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Pekala
+    ve \xE7al\u0131\u015Fkan biri olman\u0131 beklerim.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":275.5,\"yPos\":661},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Pekala
     John, bu gece burada kalabilirsin. Yar\u0131n i\u015F\\r\\nba\u015F\u0131 yapars\u0131n.
     Ama unutma, burada herkes ikinci bir \u015Fans\u0131 hak eder, ama \xFC\xE7\xFCnc\xFCy\xFC
-    de\u011Fil.\\r\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":333,\"yPos\":241},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":302,\"yPos\":106},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Anahtar\u0131
+    de\u011Fil.\\r\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":611.5,\"yPos\":819},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":580.5,\"yPos\":684},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Anahtar\u0131
     Uzat\u0131r) Yatmadan \xF6nce biraz dart oyna.\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.5,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -26631,18 +26931,6 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 391060124}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 157413834}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
@@ -26653,7 +26941,19 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1681264907}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 391060124}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
@@ -26665,21 +26965,9 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 391060128}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1019276496}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
@@ -26692,6 +26980,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 505099706}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 739779277}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -30737,6 +31037,89 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1171331950}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1171719160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1171719161}
+  - component: {fileID: 1171719163}
+  - component: {fileID: 1171719162}
+  m_Layer: 0
+  m_Name: ConversationEventInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1171719161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171719160}
+  m_LocalRotation: {x: 0.5000007, y: 0.4999993, z: 0.4999993, w: 0.5000007}
+  m_LocalPosition: {x: 2090.4924, y: 321.2919, z: -20.986504}
+  m_LocalScale: {x: 14.285715, y: 14.285715, z: 14.285715}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7915555842047066677}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1171719162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171719160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 1
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1171719163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171719160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1601051770}
+        m_TargetAssemblyTypeName: Loader, Assembly-CSharp
+        m_MethodName: GoScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: DartPlay
+          m_BoolArgument: 0
+        m_CallState: 2
+  NodeID: 0
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1001 &1171938138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43470,6 +43853,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1600318296}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1601051769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601051771}
+  - component: {fileID: 1601051770}
+  m_Layer: 0
+  m_Name: Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1601051770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601051769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5f1c8a7fed62a47918d826b04bc95f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1601051771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601051769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.235826, y: 1.4713198, z: -146.33678}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1603030563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47843,7 +48270,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1721135595
 MonoBehaviour:
@@ -56907,6 +57334,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2815354696408557600, guid: 52ce97989e358ee45818e109e55e69fc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9051480172604756083, guid: 52ce97989e358ee45818e109e55e69fc,
         type: 3}
       propertyPath: m_Name
@@ -56914,6 +57346,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 510246800031275219, guid: 52ce97989e358ee45818e109e55e69fc,
+        type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 451654490}
+    - targetCorrespondingSourceObject: {fileID: 5203431563506364290, guid: 52ce97989e358ee45818e109e55e69fc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1171719161}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1426490218723372740, guid: 52ce97989e358ee45818e109e55e69fc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7915555842047066679}
   m_SourcePrefab: {fileID: 100100000, guid: 52ce97989e358ee45818e109e55e69fc, type: 3}
+--- !u!4 &7915555842047066677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5203431563506364290, guid: 52ce97989e358ee45818e109e55e69fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7915555842047066676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7915555842047066678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1426490218723372740, guid: 52ce97989e358ee45818e109e55e69fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7915555842047066676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7915555842047066679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7915555842047066678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 2
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":246,"yPos":132},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":null,"parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":237.5,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":null,"parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Dart","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 1171719163}
+  - {fileID: 1171719162}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!65 &7915555842047066680 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 2815354696408557600, guid: 52ce97989e358ee45818e109e55e69fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7915555842047066676}
+  m_PrefabAsset: {fileID: 0}
