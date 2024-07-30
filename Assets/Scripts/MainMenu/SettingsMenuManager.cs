@@ -190,13 +190,4 @@ public class MenuManager : MonoBehaviour
 
     public void Exit() => Application.Quit();
 
-    public void ApplySettings()
-    {
-        Debug.Log("ApplySettings called");
-
-        SetSoundValues(volumeSlider.value);
-        SetBrightnessValue(brightnessSlider.value);
-        SetResolutionValues(resDropDown.value);
-        SetQualityLevel(qualityDropdown.value);
-    }
 }

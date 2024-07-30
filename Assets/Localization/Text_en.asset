@@ -180,6 +180,67 @@ MonoBehaviour:
     m_Localized: Who is this man? What is he doing here?
     m_Metadata:
       m_Items: []
+  - m_Id: 11916291191324672
+    m_Localized: Lisa :(on the phone) John, where are you? I've been looking for
+      you for a while.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916307351977984
+    m_Localized: "\rJohn: (Excited) Lisa, I'm doing something very important right
+      now. I follow a man leaving the gas station. I will give more information shortly."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916321549697024
+    m_Localized: 'Lisa: (Curious) Who is this guy? What are you doing?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916334677868544
+    m_Localized: "John: (Determined) This man might be the one who killed my boss
+      25 years ago and framed me. I must catch him and find out the truth.\r\n\rHe
+      pulled into the parking lot of a large warehouse. I think we have arrived."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916348892364800
+    m_Localized: 'Lisa: (Anxious) Be careful, John. This man could be dangerous.
+      Where are you exactly?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916373659729920
+    m_Localized: 'John: (Determined) Exactly... (Indicates location) I''ll go inside
+      the warehouse now, I''ll let you know later.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12662206936104960
+    m_Localized: "Product Owner & Developer \nEmir Ayar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12662222010433536
+    m_Localized: "Scrum Master & Developer \nEyl\xFCl Kavak \xD6z"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035650050285568
+    m_Localized: "Lead Developer\nElbruz Nart \u015Euruh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035651774144512
+    m_Localized: "Developer\nEmirhan Alk\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035653116321792
+    m_Localized: 'Game Artist & Level Designer
+
+      Esmanur Tetik'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035654034874368
+    m_Localized: "Game Soundtracks & Story\nEyl\xFCl Kavak \xD6z"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035654806626304
+    m_Localized: This game was prepared by Unity Group 19 members within the Google
+      Game and Application Academy 2024 Bootcamp.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

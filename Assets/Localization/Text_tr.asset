@@ -180,7 +180,65 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 12662206936104960
-    m_Localized: 
+    m_Localized: "Product Owner & Developer \nEmir Ayar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916291191324672
+    m_Localized: "Lisa: (Telefonda) John, neredesin? Seni bir s\xFCredir ar\u0131yorum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916307351977984
+    m_Localized: "John: (Heyecanl\u0131) Lisa, \u015Fu an \xE7ok \xF6nemli bir \u015Fey
+      yap\u0131yorum. Benzinlikten ayr\u0131lan bir adam\u0131 takip ediyorum. Birazdan
+      daha bilgi verece\u011Fim."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916321549697024
+    m_Localized: "Lisa: (Merakl\u0131) Kim bu adam? Ne yap\u0131yorsun sen?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916334677868544
+    m_Localized: "John: (Kararl\u0131) Bu adam, 25 y\u0131l \xF6nce patronumu \xF6ld\xFCren
+      ve su\xE7u bana atan ki\u015Fi olabilir. Onu yakalay\u0131p ger\xE7e\u011Fi
+      \xF6\u011Frenmeliyim.\r\n\rB\xFCy\xFCk bir deponun otopark\u0131na girdi. San\u0131r\u0131m
+      vard\u0131k.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916348892364800
+    m_Localized: "Lisa: (Endi\u015Feli) Dikkatli ol, John. Bu adam tehlikeli olabilir.
+      Neredesin tam olarak?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11916373659729920
+    m_Localized: "John: (Kararl\u0131) Tam olarak... (Konumu belirtir) \u015Eimdi
+      deponun i\xE7ine girece\u011Fim, sana sonra haber verece\u011Fim."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12662222010433536
+    m_Localized: "Scrum Master & Developer \nEyl\xFCl Kavak \xD6z"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035650050285568
+    m_Localized: "Lead Developer\nElbruz Nart \u015Euruh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035651774144512
+    m_Localized: "Developer\nEmirhan Alk\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035653116321792
+    m_Localized: 'Game Artist & Level Designer
+
+      Esmanur Tetik'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035654034874368
+    m_Localized: "Game Soundtracks & Hikaye\nEyl\xFCl Kavak \xD6z"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035654806626304
+    m_Localized: "Bu oyun Google Oyun ve Uygulama Akademisi 2024 Bootcamp'i b\xFCnyesinde
+      Unity Grup 19 \xFCyeleri taraf\u0131ndan haz\u0131rlanm\u0131\u015Ft\u0131r."
     m_Metadata:
       m_Items: []
   references:

@@ -477,6 +477,61 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelManager: {fileID: 859030255}
+--- !u!1 &126046443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 126046444}
+  - component: {fileID: 126046445}
+  m_Layer: 0
+  m_Name: SettingsMenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &126046444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126046443}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 480, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 688883576}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &126046445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126046443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf8ce555ce15fc43bc2c67fa0158d12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resDropDown: {fileID: 1143283344}
+  qualityDropdown: {fileID: 854390504}
+  volumeSlider: {fileID: 732325189}
+  brightnessSlider: {fileID: 1848153202}
+  mixer: {fileID: 0}
+  globalVolume: {fileID: 832575518}
+  volume: Volume
+  resolution: Resolution
+  quality: QualityLevel
+  mouse: MouseSensitivity
+  brightness: Brightness
 --- !u!1 &162359368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3161,6 +3216,7 @@ RectTransform:
   - {fileID: 119549494}
   - {fileID: 608258079}
   - {fileID: 2078566739}
+  - {fileID: 126046444}
   - {fileID: 418177741}
   - {fileID: 515280415}
   m_Father: {fileID: 292895561}
