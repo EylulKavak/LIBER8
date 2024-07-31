@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioPlayer : MonoBehaviour
@@ -18,8 +16,8 @@ public class AudioPlayer : MonoBehaviour
     }
     void ManageSingleton()
     {
-        
-        if(instance !=null )
+
+        if (instance != null)
         {
             gameObject.SetActive(false);
             Destroy(gameObject);
@@ -27,7 +25,7 @@ public class AudioPlayer : MonoBehaviour
         else
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
         }
     }
     public void PlayShootingClip()
@@ -38,12 +36,12 @@ public class AudioPlayer : MonoBehaviour
     {
         PlayClip(DamageClip, DamageVolume);
     }
-    void PlayClip(AudioClip clip,float volume)
+    void PlayClip(AudioClip clip, float volume)
     {
-        if(clip != null)
+        if (clip != null)
         {
             Vector3 cameraPos = Camera.main.transform.position;
-            AudioSource.PlayClipAtPoint(clip,cameraPos,volume);
+            AudioSource.PlayClipAtPoint(clip, cameraPos, volume);
         }
     }
 
