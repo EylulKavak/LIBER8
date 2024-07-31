@@ -7,9 +7,10 @@ public class InputsHandler : MonoBehaviour
     [HideInInspector] public PlayerInputs playerInputs;
     Movement movement;
     DialogueTriggerer dialogueTriggerer;
-
+    [HideInInspector] public static InputsHandler instance;
     private void Awake()
     {
+        instance = this;
         movement = GetComponent<Movement>();
         dialogueTriggerer = GetComponent<DialogueTriggerer>();
     }
