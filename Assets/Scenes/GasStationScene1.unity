@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5278,32 +5278,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 18
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":185.9,\"yPos\":-1119},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yeni
-    ba\u015Flad\u0131m asl\u0131nda. Burada \xE7al\u0131\u015Fmaya karar vermemde
-    baz\u0131\\r sebepler var.\\r\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":96.8999939,\"yPos\":-859},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ge\xE7mi\u015Fimi
-    ara\u015Ft\u0131rmak i\xE7in burada \xE7al\u0131\u015Fmam gerekti\u011Fini d\xFC\u015F\xFCn\xFCyorum.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":328.9,\"yPos\":-858},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yeni
-    bir ba\u015Flang\u0131\xE7 yapmak istedim bu i\u015F de bir f\u0131rsat gibi
-    geldi\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":229.9,\"yPos\":-644.999939},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Biraz
-    daha konu\u015F)\",\"parentUIDs\":[5,6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":257.9,\"yPos\":-342.999878},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Evet,
-    belki de hakl\u0131s\u0131n\u0131z. Burada ge\xE7irdi\u011Fim her an, ge\xE7mi\u015Fimi\\r
-    anlamamda bana yard\u0131mc\u0131 olabilir.\\r\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":279.9,\"yPos\":-138},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Buran\u0131n
-    sahibiyle hi\xE7 konu\u015Fma f\u0131rsat\u0131n\u0131z oldu\\r mu?\",\"parentUIDs\":[12],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":178.9,\"yPos\":-1244},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Merhaba
-    ben Mike. Bu b\xF6lgede s\u0131k s\u0131k u\u011Fruyorum, seni yeni\\r g\xF6rd\xFCm
-    burada. Ne zamand\u0131r \xE7al\u0131\u015F\u0131yorsun?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":194.9,\"yPos\":-1010},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ger\xE7ekten
-    mi? Ne gibi sebepler?\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":327.9,\"yPos\":-760},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Her
-    yeni ba\u015Flang\u0131\xE7, bir \u015Feyleri de\u011Fi\u015Ftirme f\u0131rsat\u0131
-    sunar.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":90.8999939,\"yPos\":-765},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0130lgin\xE7.
-    Acaba burada neler \xF6\u011Frenebilirsin?\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":245.9,\"yPos\":-567.9999},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Biraz
-    s\xFCre ge\xE7er\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":243.9,\"yPos\":-475.999939},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"John,
-    belki de bu b\xF6lgedeki insanlarla daha fazla zaman ge\xE7irmek\\r senin i\xE7in
-    iyi olabilir. Kim bilir, belki de arad\u0131\u011F\u0131n \u015Feyi bulabilirsin.\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":266.9,\"yPos\":-269.999878},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John'un
-    dikkati, sessizce k\xF6\u015Fede duran benzincinin sahibine kayar. Sahibin endi\u015Feli\\r
-    bak\u0131\u015Flar\u0131 dikkat \xE7ekmektedir.)\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":294.9,\"yPos\":-58},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Evet,
-    onunla birka\xE7 kez konu\u015Ftum. Ama biraz garip biri,\\r insanlarla pek muhabbet
-    etmez.\\r\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":309.9,\"yPos\":64},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Uzaktan
-    benzin istasyonu sahibi (Adam) ile bak\u0131\u015F\u0131rlar...\\r\\n\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":321.9,\"yPos\":204},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ben
-    gideyim sen de i\u015Fine devam et.\\nBelki Arcade makinas\u0131n\u0131 denersin
-    iyi g\xFCnler.\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":306.9,\"yPos\":317},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":167.5,\"yPos\":-1229},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Samimi
+    bir \u015Fekilde) Yeni ba\u015Flad\u0131m asl\u0131nda. Burada \xE7al\u0131\u015Fmaya
+    karar vermemde baz\u0131 sebepler var.\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":78.5,\"yPos\":-969},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(A\xE7\u0131klay\u0131c\u0131
+    bir \u015Fekilde) Ge\xE7mi\u015Fimi ara\u015Ft\u0131rmak i\xE7in burada \xE7al\u0131\u015Fmam
+    gerekti\u011Fini d\xFC\u015F\xFCn\xFCyorum.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":310.5,\"yPos\":-968},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Daha
+    sakin) Yeni bir ba\u015Flang\u0131\xE7 yapmak istedim, bu i\u015F de bir f\u0131rsat
+    gibi geldi.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":211.5,\"yPos\":-754.999939},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Biraz
+    daha konu\u015F)\",\"parentUIDs\":[5,6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":239.5,\"yPos\":-452.999878},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bir \u015Fekilde) Evet, belki de hakl\u0131s\u0131n\u0131z. Burada ge\xE7irdi\u011Fim
+    her an, ge\xE7mi\u015Fimi \\r\\nanlamamda bana yard\u0131mc\u0131 olabilir.\\r\\n\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":261.5,\"yPos\":-248},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Merakla)
+    Bu benzin istasyonunun sahibi kim? Onunla hi\xE7 konu\u015Fma f\u0131rsat\u0131n\u0131z
+    oldu mu?\",\"parentUIDs\":[12],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":160.5,\"yPos\":-1354},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(G\xFCl\xFCmseyerek)
+    Merhaba John, ben Mike. Bu b\xF6lgede s\u0131k s\u0131k u\u011Fruyorum, seni
+    yeni g\xF6rd\xFCm burada. Ne zamand\u0131r \xE7al\u0131\u015F\u0131yorsun?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":175.5,\"yPos\":-1120},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Merakl\u0131
+    bir \u015Fekilde) Ger\xE7ekten mi? Ne gibi sebepler?\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":309.5,\"yPos\":-870},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(G\xFCl\xFCmseyerek)
+    Her yeni ba\u015Flang\u0131\xE7, bir \u015Feyleri de\u011Fi\u015Ftirme f\u0131rsat\u0131
+    sunar.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":73.5,\"yPos\":-875},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bir \u015Fekilde) \u0130lgin\xE7. Acaba burada neler \xF6\u011Frenebilirsin?\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":227.5,\"yPos\":-677.9999},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Biraz
+    s\xFCre ge\xE7er\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":225.5,\"yPos\":-585.999939},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John'a
+    d\xF6nerek) John, belki de bu b\xF6lgedeki insanlarla daha fazla zaman ge\xE7irmek
+    senin i\xE7in iyi olabilir. Kim bilir, belki de arad\u0131\u011F\u0131n \u015Feyi
+    bulabilirsin.\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":240.5,\"yPos\":-358.999878},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John'un
+    dikkati, sessizce k\xF6\u015Fede duran benzincinin sahibine kayar. Sahibin endi\u015Feli
+    bak\u0131\u015Flar\u0131 dikkat \xE7ekmektedir.)\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":276.5,\"yPos\":-168},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bir \u015Fekilde) Evet, onunla birka\xE7 kez konu\u015Ftum. Ama biraz garip biri,
+    insanlarla pek muhabbet etmez.\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":291.5,\"yPos\":-46},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Uzaktan
+    benzin istasyonu sahibi (Adam) ile bak\u0131\u015F\u0131rlar...\\r\\n\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":303.5,\"yPos\":94},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ben
+    gideyim sen de i\u015Fine devam et. Belki Arcade makinas\u0131n\u0131 denersin
+    iyi g\xFCnler.\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":288.5,\"yPos\":207},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -5330,67 +5333,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1350451575}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1169574683}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1169574684}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 131983218}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 308873736}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1350451578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7694,6 +7637,11 @@ PrefabInstance:
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1435008492}
+    - target: {fileID: 5538375965362815640, guid: 5c6f7996ceb93d14c956125b794b5f47,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7138417508426931534, guid: 5c6f7996ceb93d14c956125b794b5f47,
         type: 3}
       propertyPath: m_RootOrder
@@ -7753,6 +7701,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GasStation
+      objectReference: {fileID: 0}
+    - target: {fileID: 8940264969134461036, guid: 5c6f7996ceb93d14c956125b794b5f47,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -2577,7 +2577,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7437,7 +7437,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -17567,17 +17567,17 @@ PrefabInstance:
     - target: {fileID: -5671910290767253545, guid: 9b4a6b5c82961144b9a34de72b1a46be,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.000066747656
+      value: -0.00006674765
       objectReference: {fileID: 0}
     - target: {fileID: -5671910290767253545, guid: 9b4a6b5c82961144b9a34de72b1a46be,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0037371048
+      value: -0.003737277
       objectReference: {fileID: 0}
     - target: {fileID: -5671910290767253545, guid: 9b4a6b5c82961144b9a34de72b1a46be,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0007895333
+      value: -0.00078992033
       objectReference: {fileID: 0}
     - target: {fileID: -5671910290767253545, guid: 9b4a6b5c82961144b9a34de72b1a46be,
         type: 3}
@@ -31720,7 +31720,7 @@ MonoBehaviour:
     FieldOfView: 60.000004
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 256
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -49207,7 +49207,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -52213,7 +52213,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.8
+      value: 0.2
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -53581,7 +53581,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

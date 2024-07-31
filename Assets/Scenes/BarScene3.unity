@@ -6991,7 +6991,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b4f8e707192b7ce4ebac1cd94cd2660a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.779997
+      value: -11.279997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b4f8e707192b7ce4ebac1cd94cd2660a,
         type: 3}
@@ -7001,7 +7001,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b4f8e707192b7ce4ebac1cd94cd2660a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -146.859
+      value: -147.209
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b4f8e707192b7ce4ebac1cd94cd2660a,
         type: 3}
@@ -15468,7 +15468,7 @@ GameObject:
   - component: {fileID: 553291443}
   - component: {fileID: 553291442}
   - component: {fileID: 553291441}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: ConversationEventInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21390,20 +21390,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 8
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":239.5,\"yPos\":138},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Lisa,
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":253.5,\"yPos\":-194},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Lisa,
     ge\xE7en gece konu\u015Ftu\u011Fumuz \u015Feyleri d\xFC\u015F\xFCnd\xFCm. Bana
-    yard\u0131m edebilir\\r\\nmisin?\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":98.5,\"yPos\":411},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bu
-    harika olur. \u0130lk \xF6nce kiminle konu\u015Faca\u011F\u0131m\u0131\\r d\xFC\u015F\xFCn\xFCyorsun?\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":361.5,\"yPos\":415},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Peki,
-    buradaki m\xFC\u015Fterilerin hangisi ge\xE7mi\u015Fiyle ilgili bilgi\\r verebilir?\",\"parentUIDs\":[1],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":230.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Kendi
+    yard\u0131m edebilir\\r\\nmisin?\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":112.5,\"yPos\":79},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Lisa'ya
+    te\u015Fekk\xFCr ederek) Bu harika olur. \u0130lk \xF6nce kiminle konu\u015Faca\u011F\u0131m\u0131
+    d\xFC\u015F\xFCn\xFCyorsun?\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":375.5,\"yPos\":83},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bir \u015Fekilde) Peki, buradaki m\xFC\u015Fterilerin hangisi ge\xE7mi\u015Fiyle
+    ilgili bilgi verebilir?\",\"parentUIDs\":[1],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":244.5,\"yPos\":-310},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Kendi
     kendine) Bu olay\u0131n perde arkas\u0131nda ne oldu\u011Funu bulmal\u0131y\u0131m.
-    Aileme geri\\r\\nd\xF6nebilmem i\xE7in bu ger\xE7ekleri ortaya \xE7\u0131karmal\u0131y\u0131m.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"John\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":243.5,\"yPos\":249},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Elbette
+    Aileme geri\\r\\nd\xF6nebilmem i\xE7in bu ger\xE7ekleri ortaya \xE7\u0131karmal\u0131y\u0131m.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"John\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":257.5,\"yPos\":-83},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Elbette
     John ne yapabilirsem yapar\u0131m \\nBu bar\u0131n m\xFCdavimleri aras\u0131nda
     25 y\u0131l \xF6ncesini\\r \\nhat\u0131rlayan bir\xE7ok insan var \\nOnlar\u0131
-    konu\u015Fmaya ikna edebilirim.\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":102.5,\"yPos\":501},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bar\u0131n
-    en eski m\xFC\u015Fterilerinden biri olan Harry, belki bize yard\u0131mc\u0131
-    olabilir.\\r Onunla konu\u015Fmaya ba\u015Flayabiliriz\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":366.5,\"yPos\":501},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Bir\xE7o\u011Fu,
-    farkl\u0131 nedenlerle burada uzun s\xFCredir tak\u0131l\u0131yorlar. Ama baz\u0131lar\u0131\\r
-    ge\xE7mi\u015F hakk\u0131nda konu\u015Fmaktan ho\u015Flanabilir\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":260.5,\"yPos\":644},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[5,6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    konu\u015Fmaya ikna edebilirim.\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":116.5,\"yPos\":169},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnerek)
+    Bar\u0131n en eski m\xFC\u015Fterilerinden biri olan Harry, belki bize yard\u0131mc\u0131
+    olabilir. Onunla konu\u015Fmaya ba\u015Flayabiliriz.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":380.5,\"yPos\":169},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Empatiyle)
+    Bir\xE7o\u011Fu, farkl\u0131 nedenlerle burada uzun s\xFCredir tak\u0131l\u0131yorlar.
+    Ama baz\u0131lar\u0131 ge\xE7mi\u015F hakk\u0131nda konu\u015Fmaktan ho\u015Flanabilir.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":274.5,\"yPos\":312},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[5,6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -30408,12 +30410,12 @@ PrefabInstance:
     - target: {fileID: -8969417572210971711, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8699787447509501512, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
@@ -30438,7 +30440,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.941
+      value: -10.441
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
@@ -30448,7 +30450,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -147.381
+      value: -147.731
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
@@ -30493,87 +30495,87 @@ PrefabInstance:
     - target: {fileID: -8272593504222155511, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8236615327842799068, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8139853090755257685, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -7774620517717459388, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -7442486174699534068, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -6851848838197607830, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -6360735721235083178, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -6116727749810235759, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -5424213705957445524, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -4501201811031430588, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -3638193520734090830, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -2453550708452717748, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -1930578328450875381, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -1731024231264914805, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -1693546492923637869, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -1033859536177898853, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -641257812432895841, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
@@ -30583,57 +30585,57 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1166754175604888097, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1617399745748130172, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1623432664241722853, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2430876001099946699, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2464098630957027937, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2657195002283232437, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3897462237488877691, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4108234674411243596, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4311629582287283170, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5323162407277330719, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
@@ -30648,57 +30650,57 @@ PrefabInstance:
     - target: {fileID: 6386480451222621022, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6499889929296628410, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6793671751076278729, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7036213049465896255, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7372134353506958267, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7891850266450665243, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8352526780231734871, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8493651545096302793, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8916979045543815761, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8924312143693774172, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9088872756827976528, guid: 61ad2adf1f19b78488c67fa2209231ec,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36932,25 +36934,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 15
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":25,\"yPos\":-663},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Harry,
-    seninle bir \u015Feyler payla\u015Fmak istiyorum.\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":232,\"yPos\":-664},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Harry,
-    seninle ge\xE7mi\u015Fle ilgili bir konu\u015Fma yapabilir miyiz?\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":134,\"yPos\":-445},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"25
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":165.5,\"yPos\":111},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Harry'e
+    do\u011Fru) Harry, seninle bir \u015Feyler payla\u015Fmak istiyorum.\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":372.5,\"yPos\":110},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Harry'e
+    samimi bir \u015Fekilde) Harry, seninle ge\xE7mi\u015Fle ilgili bir konu\u015Fma
+    yapabilir miyiz?\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":274.5,\"yPos\":329},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"25
     y\u0131l \xF6nce bu mahallede bir cinayet i\u015Flendi, hat\u0131rl\u0131yor
-    musun?\",\"parentUIDs\":[4,5],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":145,\"yPos\":-177},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Belki
-    de benzincinin sahibi bize yard\u0131mc\u0131 olabilir.\",\"parentUIDs\":[9],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":155,\"yPos\":106},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hakl\u0131s\u0131n\u0131z.
-    Burada \xE7al\u0131\u015Farak belki de yeni bilgiler elde edebilirim\",\"parentUIDs\":[12],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":126,\"yPos\":-912},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-    Lisa. Ne var ne yok?\\r\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":121.5,\"yPos\":-803},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Selam
+    musun?\",\"parentUIDs\":[4,5],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":285.5,\"yPos\":597},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Belki
+    de benzincinin sahibi bize yard\u0131mc\u0131 olabilir.\",\"parentUIDs\":[9],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":295.5,\"yPos\":880},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnerek)
+    Hakl\u0131s\u0131n\u0131z. Burada \xE7al\u0131\u015Farak belki de yeni bilgiler
+    elde edebilirim.\",\"parentUIDs\":[12],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":266.5,\"yPos\":-138},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John
+    ve Lisa'ya yakla\u015Farak) Lisa. Ne var ne yok?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":262,\"yPos\":-29},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Selam
     Harry, ben iyiyim ama dostum John i\xE7in ayn\u0131 \u015Feyi s\xF6yleyemeyece\u011Fim.
-    Biraz\\r zaman\u0131n var m\u0131?\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":25,\"yPos\":-580},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tabii
-    John, dinliyorum seni.\\r\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":235,\"yPos\":-580},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ge\xE7mi\u015F,
-    bazen unutulmayacak kadar yak\u0131n olabilir\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":141,\"yPos\":-372},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0130yi
-    hat\u0131rl\u0131yorum John, o g\xFCnleri. Bu konuda sana yard\u0131mc\u0131\\r
-    olabilecek bir yer var.\\r\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":142,\"yPos\":-276},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Benzin
-    istasyonunun foto\u011Fraf\u0131n\u0131 g\xF6sterir.)\\r\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":149,\"yPos\":-97},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Evet,
-    ama o korkudan dolay\u0131 konu\u015Fam\u0131yor. John'u burada\\r \xE7al\u0131\u015Fmaya
-    y\xF6nlendirerek, ona yakla\u015Fmas\u0131n\u0131 sa\u011Flayabiliriz.\\r\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":151,\"yPos\":1},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"John,
-    belki de burada \xE7al\u0131\u015Fmak sana yeni bir perspektif\\r kazand\u0131rabilir.
-    \u0130nsanlarla ileti\u015Fim kurarak belki de yeni ipu\xE7lar\u0131 bulabilirsin.\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":160,\"yPos\":186},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    Biraz zaman\u0131n var m\u0131?\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":165.5,\"yPos\":194},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Merakla)
+    Tabii John, dinliyorum seni.\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":375.5,\"yPos\":194},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bir \u015Fekilde) Ge\xE7mi\u015F, bazen unutulmayacak kadar yak\u0131n olabilir.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":281.5,\"yPos\":402},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bir \u015Fekilde) \u0130yi hat\u0131rl\u0131yorum John, o g\xFCnleri. Bu konuda
+    sana yard\u0131mc\u0131 olabilecek bir yer var. \",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":282.5,\"yPos\":498},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Benzin
+    istasyonunun foto\u011Fraf\u0131n\u0131 g\xF6sterir.)\\r\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":289.5,\"yPos\":677},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bir \u015Fekilde) Evet, ama o korkudan dolay\u0131 konu\u015Fam\u0131yor. John'u
+    burada \xE7al\u0131\u015Fmaya y\xF6nlendirerek, ona yakla\u015Fmas\u0131n\u0131
+    sa\u011Flayabiliriz.\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":290.5,\"yPos\":775},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bir \u015Fekilde) John, belki de burada \xE7al\u0131\u015Fmak sana yeni bir perspektif
+    kazand\u0131rabilir. \u0130nsanlarla ileti\u015Fim kurarak belki de yeni ipu\xE7lar\u0131
+    bulabilirsin.\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":300.5,\"yPos\":960},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -36974,19 +36980,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1082047610}
-        m_TargetAssemblyTypeName: Loader, Assembly-CSharp
-        m_MethodName: GoScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: GasStationScene1
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!65 &1285017685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44376,7 +44370,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558143773}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.098, y: -0.025614977, z: -147.945}
+  m_LocalPosition: {x: -10.285, y: -0.025614977, z: -146.994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -48716,7 +48710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1680668905}
   - component: {fileID: 1680668906}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Harry Cam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51854,7 +51848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1793555523}
   - component: {fileID: 1793555524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
