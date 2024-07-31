@@ -1,6 +1,6 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class CustomerAI : MonoBehaviour
 {
@@ -8,22 +8,24 @@ public class CustomerAI : MonoBehaviour
     private CustomerSpawner customerSpawner;
     private NavMeshAgent agent;
     private Transform despawnPoint;
-    Animator animator;
+    private Animator animator;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
     }
+
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         despawnPoint = GameObject.Find("DespawnPoint").transform;
 
         customerSpawner = FindObjectOfType<CustomerSpawner>();
+        queueManager = FindObjectOfType<QueueManager>();
 
-        queueManager = FindObjectOfType<QueueManager>(); // Find the queue manager in the scene
         if (queueManager != null)
         {
-            queueManager.AddCustomerToQueue(this); // Add customer to the queue
+            queueManager.AddCustomerToQueue(this);
         }
     }
 
@@ -51,8 +53,19 @@ public class CustomerAI : MonoBehaviour
         }
         Destroy(gameObject);
     }
+
     private void Update()
     {
-        animator.SetFloat("Speed", Mathf.Sqrt(Mathf.Pow(agent.velocity.x, 2) + Mathf.Pow(agent.velocity.z, 2)));
+        animator.SetFloat("Speed", agent.velocity.magnitude);
+
+        if (queueManager != null && queueManager.IsFirstCustomer(this))
+        {
+            if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+            {
+                // Rotate the first customer to face the opposite direction (180 degrees)
+                Vector3 backwardDirection = -Vector3.right; // Facing towards negative x-axis
+                transform.rotation = Quaternion.LookRotation(backwardDirection);
+            }
+        }
     }
 }

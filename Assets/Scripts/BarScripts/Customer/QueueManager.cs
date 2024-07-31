@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class QueueManager : MonoBehaviour
 {
-    public Transform[] queuePositions; // Array of positions for the queue
+    public Transform[] queuePositions;
     private Queue<CustomerAI> customerQueue = new Queue<CustomerAI>();
 
     public void AddCustomerToQueue(CustomerAI customer)
@@ -19,6 +19,11 @@ public class QueueManager : MonoBehaviour
             customerQueue.Dequeue();
             UpdateCustomerPositions();
         }
+    }
+
+    public bool IsFirstCustomer(CustomerAI customer)
+    {
+        return customerQueue.Count > 0 && customerQueue.Peek() == customer;
     }
 
     private void UpdateCustomerPositions()

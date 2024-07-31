@@ -42603,6 +42603,9 @@ MonoBehaviour:
   - {fileID: 6627002866744435033, guid: 61969645c61614d4ebfca40eb0da4213, type: 3}
   - {fileID: 787716622444188808, guid: 4f57936947565aa4e894f21286b15392, type: 3}
   - {fileID: 3990738289812026989, guid: 9f21b9bacf095564ea8b71746213e92c, type: 3}
+  - {fileID: 306409791090270076, guid: 31d2d0f36b587c84a9b26c9b48a8add5, type: 3}
+  - {fileID: 20643387891863370, guid: c0c596669bb8dd540ac75a41db16ad57, type: 3}
+  - {fileID: 586443505994384058, guid: 29f5a01e5cd18b04492b1d04c5c66d81, type: 3}
   spawnPoint: {fileID: 792183058}
   spawnInterval: 10
   totalCustomersToSpawn: 10

@@ -1,13 +1,13 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Order : MonoBehaviour, IInteractable
 {
     public string[] fruits = {"Lemon", "Orange"};
     public string[] sodas = {"Red", "Yellow", "Blue","Orange","Purple","Green"};
-    private TMP_Text orderText; // UI Text to show order details
-    private TMP_Text timerText; // UI Text to show the remaining time
-    private TMP_Text warningText; // UI Text to show warning messages
+    private TMP_Text orderText;
+    private TMP_Text warningText;
 
     private string orderedFruit;
     private string orderedSoda;
@@ -15,22 +15,33 @@ public class Order : MonoBehaviour, IInteractable
     private bool hasOrder = false;
     private bool canOrder = true;
 
+    private CustomerAI customer;
     private Lives lives;
 
-    [SerializeField] private float orderTimer = 30f; // 30 seconds timer
+    [SerializeField] private float orderTimer = 30f;
     private bool timerRunning = false;
+
+    [SerializeField] private Slider timerSlider;
+    [SerializeField] private Image sliderFillImage;
 
     private void Start()
     {
         orderText = GameObject.Find("orderText").GetComponent<TMP_Text>();
-        timerText = GameObject.Find("timerText").GetComponent<TMP_Text>();
         warningText = GameObject.Find("warning").GetComponent<TMP_Text>();
+        customer = GetComponent<CustomerAI>();
         GameObject player = GameObject.Find("Player");
         if (player != null)
         {
             lives = player.GetComponent<Lives>();
         }
+
+        if (timerSlider != null)
+        {
+            timerSlider.maxValue = orderTimer;
+            timerSlider.gameObject.SetActive(false); // Başlangıçta gizli
+        }
     }
+
     public void Interact(PlayerInteract player)
     {
         if (!hasOrder && canOrder)
@@ -47,19 +58,24 @@ public class Order : MonoBehaviour, IInteractable
     {
         orderedFruit = fruits[Random.Range(0, fruits.Length)];
         orderedSoda = sodas[Random.Range(0, sodas.Length)];
-        orderedIce = Random.Range(0, 3); // 0, 1, or 2 ice cubes
+        orderedIce = Random.Range(0, 3);
 
         hasOrder = true;
-        timerRunning = true; // Start the timer
-        orderTimer = 30f; // Reset the timer
+        timerRunning = true;
+        orderTimer = 30f;
 
         string orderDetails = $"Order:  {orderedIce} Ice Cubes, {orderedSoda} Soda, {orderedFruit} Fruit";
         Debug.Log(orderDetails);
-        
-        // Update the UI text with the order details
+
         if (orderText != null)
         {
             orderText.text = orderDetails;
+        }
+
+        if (timerSlider != null)
+        {
+            timerSlider.value = orderTimer;
+            timerSlider.gameObject.SetActive(true);
         }
     }
 
@@ -67,7 +83,6 @@ public class Order : MonoBehaviour, IInteractable
     {
         bool isOrderCorrect = true;
 
-        // Check glass contents
         bool sodaCorrect = false;
         foreach (Transform child in player.glassHolder)
         {
@@ -119,18 +134,17 @@ public class Order : MonoBehaviour, IInteractable
             Debug.Log("Order is correct!");
             player.ReturnCup();
             hasOrder = false;
-            timerRunning = false; // Stop the timer
+            timerRunning = false;
             ClearUI();
         }
         else
         {
             hasOrder = false;
-            timerRunning = false; // Stop the timer
+            timerRunning = false;
             ClearUI();
             lives.liveCount--;
         }
         canOrder = false;
-        CustomerAI customer = GetComponent<CustomerAI>(); // Adjust based on actual setup
         if (customer != null)
         {
             customer.OrderCompleted();
@@ -143,10 +157,10 @@ public class Order : MonoBehaviour, IInteractable
         {
             orderTimer -= Time.deltaTime;
 
-            // Update the timer text
-            if (timerText != null)
+            if (timerSlider != null)
             {
-                timerText.text = $"Kalan Zaman: {orderTimer:F1}"; // Show the time with one decimal place
+                timerSlider.value = orderTimer;
+                UpdateSliderColor();
             }
 
             if (orderTimer <= 0)
@@ -158,27 +172,48 @@ public class Order : MonoBehaviour, IInteractable
                 }
                 hasOrder = false;
                 timerRunning = false;
-                orderTimer = 30f; // Reset the timer for the next order
+                orderTimer = 30f;
+                if (customer != null)
+                {
+                    customer.OrderCompleted();
+                }
                 lives.liveCount--;
 
                 ClearUI();
             }
         }
     }
+
     private void ClearUI()
     {
-        // Clear the UI text
         if (orderText != null)
         {
             orderText.text = "";
         }
-        if (timerText != null)
+        if (timerSlider != null)
         {
-            timerText.text = "";
+            timerSlider.value = 0;
+            timerSlider.gameObject.SetActive(false);
         }
         if (warningText != null)
         {
             warningText.text = "";
+        }
+    }
+
+    private void UpdateSliderColor()
+    {
+        if (sliderFillImage != null)
+        {
+            float percentage = timerSlider.value / timerSlider.maxValue;
+            if (percentage > 0.5f)
+            {
+                sliderFillImage.color = Color.Lerp(Color.yellow, Color.green, (percentage - 0.5f) * 2);
+            }
+            else
+            {
+                sliderFillImage.color = Color.Lerp(Color.red, Color.yellow, percentage * 2);
+            }
         }
     }
 }

@@ -543,11 +543,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuelSlider: {fileID: 8596234038089676875}
-  fillingSpeed: 0.2
+  fillingSpeed: 0.3
   targetImage: {fileID: 6638887589219865182}
   feedbackText: {fileID: 1135890168893446965}
   fillingSound: {fileID: 6536824432617329507}
-  isFilledOnce: 0
 --- !u!1 &8334858447987693243
 GameObject:
   m_ObjectHideFlags: 0

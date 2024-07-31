@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1119,13 +1119,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vehiclePrefabs:
   - {fileID: 706282683454417552, guid: b5ec0927b4af5504bb8a2a8577f4287d, type: 3}
-  - {fileID: 4496728621145299986, guid: c4fdf048a2fb4be4fa9c4f99ef223b5b, type: 3}
-  - {fileID: 5498937043376996048, guid: 89d2b2a02adc2304db7962c1111c983a, type: 3}
-  - {fileID: 6894602042265178586, guid: 2eea2a565de2e3d46b9a5b6143624cd4, type: 3}
   - {fileID: 8547323106791966810, guid: a21ab4e4a9a36e847bfb601e15f6ce55, type: 3}
   - {fileID: 3570260608619740322, guid: a978a5a0f00609342a3e83bfd0f09a53, type: 3}
   - {fileID: 3675425341904684945, guid: 5647dfadaad09534588453da6129a816, type: 3}
   - {fileID: 3897542205490057431, guid: 2266ddda051fe4741ba262dee2e0eca4, type: 3}
+  - {fileID: 6894602042265178586, guid: 2eea2a565de2e3d46b9a5b6143624cd4, type: 3}
+  - {fileID: 3179412883632838578, guid: 8b41b970652a31243b2c998fe47b6535, type: 3}
+  - {fileID: 3620457497757086076, guid: 8312f05e833008e4f92e9df6a4069bc2, type: 3}
   spawnPoint: {fileID: 1768996093}
   despawnPoint: {fileID: 448994994}
   fuelStations:
@@ -1137,6 +1137,33 @@ MonoBehaviour:
   maxSpawnTime: 10
   maxVehiclesPerFuelStation: 1
   maxVehiclesToSpawn: 15
+  onAllVehiclesServed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1660959292}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 4246787959353984499}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!4 &308873738
 Transform:
   m_ObjectHideFlags: 0
@@ -4182,90 +4209,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096785474}
   m_Mesh: {fileID: -2432090755550338912, guid: 6fb5e4bb597f4b140b9a609199945789, type: 3}
---- !u!1 &1112424992
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1112424993}
-  - component: {fileID: 1112424995}
-  - component: {fileID: 1112424994}
-  m_Layer: 0
-  m_Name: ConversationEventInfo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1112424993
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112424992}
-  m_LocalRotation: {x: -0.000000026692497, y: -0.70710784, z: -0.000000026692577,
-    w: -0.70710576}
-  m_LocalPosition: {x: -88.029785, y: -0.115005426, z: 72.00026}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4246787959353984495}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1112424994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112424992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 1
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &1112424995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112424992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1435008492}
-        m_TargetAssemblyTypeName: Loader, Assembly-CSharp
-        m_MethodName: GoScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: ArcadeGame
-          m_BoolArgument: 0
-        m_CallState: 2
-  NodeID: 0
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
 --- !u!1 &1126474168
 GameObject:
   m_ObjectHideFlags: 0
@@ -5335,32 +5278,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 18
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":281.9,\"yPos\":147},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yeni
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":185.9,\"yPos\":-1119},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yeni
     ba\u015Flad\u0131m asl\u0131nda. Burada \xE7al\u0131\u015Fmaya karar vermemde
-    baz\u0131\\r sebepler var.\\r\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":192.9,\"yPos\":407},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ge\xE7mi\u015Fimi
-    ara\u015Ft\u0131rmak i\xE7in burada \xE7al\u0131\u015Fmam gerekti\u011Fini d\xFC\u015F\xFCn\xFCyorum.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":424.9,\"yPos\":408},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yeni
+    baz\u0131\\r sebepler var.\\r\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":96.8999939,\"yPos\":-859},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ge\xE7mi\u015Fimi
+    ara\u015Ft\u0131rmak i\xE7in burada \xE7al\u0131\u015Fmam gerekti\u011Fini d\xFC\u015F\xFCn\xFCyorum.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":328.9,\"yPos\":-858},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yeni
     bir ba\u015Flang\u0131\xE7 yapmak istedim bu i\u015F de bir f\u0131rsat gibi
-    geldi\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":325.9,\"yPos\":621.000061},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Biraz
-    daha konu\u015F)\",\"parentUIDs\":[5,6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":353.9,\"yPos\":923.000061},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Evet,
+    geldi\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":229.9,\"yPos\":-644.999939},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Biraz
+    daha konu\u015F)\",\"parentUIDs\":[5,6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":257.9,\"yPos\":-342.999878},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Evet,
     belki de hakl\u0131s\u0131n\u0131z. Burada ge\xE7irdi\u011Fim her an, ge\xE7mi\u015Fimi\\r
-    anlamamda bana yard\u0131mc\u0131 olabilir.\\r\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":375.9,\"yPos\":1128},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Buran\u0131n
-    sahibiyle hi\xE7 konu\u015Fma f\u0131rsat\u0131n\u0131z oldu\\r mu?\",\"parentUIDs\":[12],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":274.9,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Merhaba
+    anlamamda bana yard\u0131mc\u0131 olabilir.\\r\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":279.9,\"yPos\":-138},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Buran\u0131n
+    sahibiyle hi\xE7 konu\u015Fma f\u0131rsat\u0131n\u0131z oldu\\r mu?\",\"parentUIDs\":[12],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":178.9,\"yPos\":-1244},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Merhaba
     ben Mike. Bu b\xF6lgede s\u0131k s\u0131k u\u011Fruyorum, seni yeni\\r g\xF6rd\xFCm
-    burada. Ne zamand\u0131r \xE7al\u0131\u015F\u0131yorsun?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":290.9,\"yPos\":256},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ger\xE7ekten
-    mi? Ne gibi sebepler?\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":423.9,\"yPos\":506},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Her
+    burada. Ne zamand\u0131r \xE7al\u0131\u015F\u0131yorsun?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":194.9,\"yPos\":-1010},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ger\xE7ekten
+    mi? Ne gibi sebepler?\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":327.9,\"yPos\":-760},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Her
     yeni ba\u015Flang\u0131\xE7, bir \u015Feyleri de\u011Fi\u015Ftirme f\u0131rsat\u0131
-    sunar.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":186.9,\"yPos\":501},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0130lgin\xE7.
-    Acaba burada neler \xF6\u011Frenebilirsin?\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":341.9,\"yPos\":698},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Biraz
-    s\xFCre ge\xE7er\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":339.9,\"yPos\":790},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"John,
+    sunar.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":90.8999939,\"yPos\":-765},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0130lgin\xE7.
+    Acaba burada neler \xF6\u011Frenebilirsin?\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":245.9,\"yPos\":-567.9999},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Biraz
+    s\xFCre ge\xE7er\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":243.9,\"yPos\":-475.999939},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"John,
     belki de bu b\xF6lgedeki insanlarla daha fazla zaman ge\xE7irmek\\r senin i\xE7in
-    iyi olabilir. Kim bilir, belki de arad\u0131\u011F\u0131n \u015Feyi bulabilirsin.\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":362.9,\"yPos\":996.000061},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John'un
+    iyi olabilir. Kim bilir, belki de arad\u0131\u011F\u0131n \u015Feyi bulabilirsin.\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":266.9,\"yPos\":-269.999878},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John'un
     dikkati, sessizce k\xF6\u015Fede duran benzincinin sahibine kayar. Sahibin endi\u015Feli\\r
-    bak\u0131\u015Flar\u0131 dikkat \xE7ekmektedir.)\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":390.9,\"yPos\":1208},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Evet,
+    bak\u0131\u015Flar\u0131 dikkat \xE7ekmektedir.)\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":294.9,\"yPos\":-58},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Evet,
     onunla birka\xE7 kez konu\u015Ftum. Ama biraz garip biri,\\r insanlarla pek muhabbet
-    etmez.\\r\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":405.9,\"yPos\":1330},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Uzaktan
-    benzin istasyonu sahibi (Adam) ile bak\u0131\u015F\u0131rlar...\\r\\n\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":417.9,\"yPos\":1470},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ben
+    etmez.\\r\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":309.9,\"yPos\":64},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Uzaktan
+    benzin istasyonu sahibi (Adam) ile bak\u0131\u015F\u0131rlar...\\r\\n\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":321.9,\"yPos\":204},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ben
     gideyim sen de i\u015Fine devam et.\\nBelki Arcade makinas\u0131n\u0131 denersin
-    iyi g\xFCnler.\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":402.9,\"yPos\":1583},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    iyi g\xFCnler.\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":306.9,\"yPos\":317},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -5387,7 +5330,67 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1350451575}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1169574683}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1169574684}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 131983218}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 308873736}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1350451578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6418,141 +6421,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623528138}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1660959290
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 4246787959353984498}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 23.499771
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.758
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -77.75007
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071069
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.000000029802319
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_Name
-      value: 3D RightArrow
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1660959293}
-  m_SourcePrefab: {fileID: 100100000, guid: 215cd824695b5554fb06bcc6cbfe3901, type: 3}
---- !u!4 &1660959291 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 215cd824695b5554fb06bcc6cbfe3901,
-    type: 3}
-  m_PrefabInstance: {fileID: 1660959290}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1660959292 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 215cd824695b5554fb06bcc6cbfe3901,
+  m_CorrespondingSourceObject: {fileID: 5538375965362815640, guid: 5c6f7996ceb93d14c956125b794b5f47,
     type: 3}
-  m_PrefabInstance: {fileID: 1660959290}
+  m_PrefabInstance: {fileID: 4246787959353984493}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1660959293
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660959292}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a5475578334d1604c8fc4c6caca0693e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1668543465
 GameObject:
   m_ObjectHideFlags: 0
@@ -7815,6 +7689,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 246834216}
     m_Modifications:
+    - target: {fileID: 3305609043836221957, guid: 5c6f7996ceb93d14c956125b794b5f47,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1435008492}
     - target: {fileID: 7138417508426931534, guid: 5c6f7996ceb93d14c956125b794b5f47,
         type: 3}
       propertyPath: m_RootOrder
@@ -7877,20 +7756,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 8489474477702076138, guid: 5c6f7996ceb93d14c956125b794b5f47,
-        type: 3}
-      insertIndex: 0
-      addedObject: {fileID: 1660959291}
-    - targetCorrespondingSourceObject: {fileID: 4830020670220279969, guid: 5c6f7996ceb93d14c956125b794b5f47,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1112424993}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5209678064974723611, guid: 5c6f7996ceb93d14c956125b794b5f47,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4246787959353984497}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c6f7996ceb93d14c956125b794b5f47, type: 3}
 --- !u!4 &4246787959353984494 stripped
 Transform:
@@ -7898,47 +7765,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4246787959353984493}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &4246787959353984495 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4830020670220279969, guid: 5c6f7996ceb93d14c956125b794b5f47,
-    type: 3}
-  m_PrefabInstance: {fileID: 4246787959353984493}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4246787959353984496 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5209678064974723611, guid: 5c6f7996ceb93d14c956125b794b5f47,
-    type: 3}
-  m_PrefabInstance: {fileID: 4246787959353984493}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4246787959353984497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4246787959353984496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentIDCounter: 2
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":249,"yPos":133},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":null,"parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":228,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":null,"parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Arcade","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
-  saveVersion: 110
-  DefaultName: 
-  DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 0}
-  NodeSerializedDataList:
-  - {fileID: 1112424995}
-  - {fileID: 1112424994}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!4 &4246787959353984498 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8489474477702076138, guid: 5c6f7996ceb93d14c956125b794b5f47,
+--- !u!65 &4246787959353984499 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 8940264969134461036, guid: 5c6f7996ceb93d14c956125b794b5f47,
     type: 3}
   m_PrefabInstance: {fileID: 4246787959353984493}
   m_PrefabAsset: {fileID: 0}
