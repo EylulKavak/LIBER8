@@ -4,18 +4,18 @@
 ## Takım Üyeleri:
 
 - **Emir Ayar** - Product Owner & Developer
-- **Eylül Kavak Öz** - Scrum Master & Developer
-- **Elbruz Nart Şuruh** - Developer
+- **Eylül Kavak Öz** - Scrum Master & Developer & Sound Designer
+- **Elbruz Nart Şuruh** - Lead Developer
 - **Emirhan Alkın** - Developer
 - **Esmanur Tetik** - Game Artist & Level Designer
 
-## Oyun Adı: LIBER8
+## Oyun Adı: LIBER∞
 
 ![LIBER8](https://github.com/user-attachments/assets/be662329-c05f-4017-a100-222e712dd425)
 
 
 ## Hikayenin Konusu:
-Hikayemizin ana kahramanı John, daha önce tanıştığı ve hizmet ettiği zengin bir iş adamının ölümüyle ilgili olarak suçlanmıştır. Bu iş adamı John'un daha önce çalıştığı bir şirketin sahibi veya yöneticisi olabilir. Ölüm şüpheli bir şekilde gerçekleşmiş ve deliller John'u suçlu göstermiş ve adil olmayan bir şekilde hapis cezasına çarptırılmıştır. John masum olduğunu bile bile kendisini kanıtlamak için mücadele etmiştir. 25 yılın ardından John hapishaneden kaçar. Bu kaçış onun masumiyetini kanıtlama ve gerçek suçluyu bulma amacıyla başlar.
+LIBER∞, singleplayer şeklinde oynanan, diyalog sistemi içeren, meslek & mini oyunlarıyla PC oyun çeşitlerini denemenize imkan tanıyan 3D bir hikaye oyunudur. Hikayenin ana kahramanı John, bir iş adamının ölümüyle ilgili olarak suçlanmıştır. Ölüm şüpheli bir şekilde gerçekleşmiş, deliller John'u suçlu göstermiş ve John adil olmayan bir şekilde hapis cezasına çarptırılmıştır. 25 yılın ardından John hapishaneden kaçar. Bu kaçış onun masumiyetini kanıtlama ve gerçek suçluyu bulma amacıyla başlar.
 
 ## Oyun Özellikleri
 - FPS
@@ -26,6 +26,21 @@ Hikayemizin ana kahramanı John, daha önce tanıştığı ve hizmet ettiği zen
 - Casual Oyuncular
 - Hikaye sevenler
 - PC oyuncuları
+
+Oyun müzikleri hem https://www.soundtrap.com/musicmakers platformu üzerinden ücretsiz üyelik özellikleri kullanılarak hem de enstrümanlarla ev stüdyosu kayıtları alınarak oyunumuza özel olarak bestelenmiştir.
+
+Asset model tasarımında MagicaVoxel kullanılmıştır.
+
+Unity Game Engine ile yapılmıştır.
+
+## Oyun Platformu:
+* itch.io linki
+* Steam platformunda yayınlanacaktır. Ayrıca müzikleri indirilebilir içerik olarak satılacaktır.
+
+## Yapay Zeka Kullanımı
+Oyun içi bazı görsellerde ve bazı kodlarda NavMesh Agents kullanıldı.
+Ayrıca logo tasarımında ve hikaye metni yazımında yapay zekadan faydalanıldı.
+
 
 ## Product Backlog URL
 [Product Backlog](https://trello.com/invite/b/CGPjXqGs/ATTI50196393f53431e00b224b1bff53f94275553C29/to-dos)
