@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Order : MonoBehaviour, IInteractable
 {
-    public string[] fruits = {"Portakal", "Limon"};
+    public string[] fruits = {"Portakal", "Limon", "Cilek"};
     public string[] sodas = {"Kırmızı", "Sarı", "Mavi","Turuncu","Mor","Yeşil"};
     private TMP_Text orderText;
     private TMP_Text warningText;
