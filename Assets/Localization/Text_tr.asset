@@ -241,6 +241,10 @@ MonoBehaviour:
       Unity Grup 19 \xFCyeleri taraf\u0131ndan haz\u0131rlanm\u0131\u015Ft\u0131r."
     m_Metadata:
       m_Items: []
+  - m_Id: 13672684938977280
+    m_Localized: Kontroller
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

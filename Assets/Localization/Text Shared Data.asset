@@ -217,6 +217,10 @@ MonoBehaviour:
     m_Key: CD7
     m_Metadata:
       m_Items: []
+  - m_Id: 13672684938977280
+    m_Key: Controller
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

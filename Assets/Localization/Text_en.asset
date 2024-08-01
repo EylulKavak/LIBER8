@@ -241,6 +241,10 @@ MonoBehaviour:
       Game and Application Academy 2024 Bootcamp.
     m_Metadata:
       m_Items: []
+  - m_Id: 13672684938977280
+    m_Localized: Controller
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
