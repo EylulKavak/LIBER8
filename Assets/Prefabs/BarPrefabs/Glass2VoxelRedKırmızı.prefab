@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 4215803618023282043}
   - component: {fileID: 2382890071817335618}
   m_Layer: 6
-  m_Name: Glass2VoxelRed
+  m_Name: "Glass2VoxelRedK\u0131rm\u0131z\u0131"
   m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

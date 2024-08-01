@@ -93,7 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9193767642245470549}
   m_Layer: 0
-  m_Name: Orange
+  m_Name: OrangePortakal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

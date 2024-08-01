@@ -141,13 +141,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5913340204014917441}
-  - component: {fileID: 6728414597259064279}
   - component: {fileID: 6063022848221805699}
   - component: {fileID: 7440503679749914058}
   - component: {fileID: 4442217025139476040}
   - component: {fileID: 540509096035852081}
   - component: {fileID: -4603000040127319350}
   - component: {fileID: -4453801942545484734}
+  - component: {fileID: 290379959202059931}
   m_Layer: 0
   m_Name: Npc3
   m_TagString: Box
@@ -173,31 +173,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6728414597259064279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 787716622444188808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dd026c383aa66f4084eef49287737fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruits:
-  - Lemon
-  - Orange
-  sodas:
-  - Red
-  - Yellow
-  - Blue
-  - Orange
-  - Purple
-  - Green
-  orderTimer: 30
-  timerSlider: {fileID: 7696663248409182717}
-  sliderFillImage: {fileID: 3229108196201807002}
 --- !u!114 &6063022848221805699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,6 +362,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &290379959202059931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787716622444188808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd026c383aa66f4084eef49287737fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - Portakal
+  - Limon
+  sodas:
+  - "K\u0131rm\u0131z\u0131"
+  - "Sar\u0131"
+  - Mavi
+  - Turuncu
+  - Mor
+  - "Ye\u015Fil"
+  orderTimer: 30
+  timerSlider: {fileID: 7696663248409182717}
+  sliderFillImage: {fileID: 3229108196201807002}
 --- !u!1 &787963995946852597
 GameObject:
   m_ObjectHideFlags: 0

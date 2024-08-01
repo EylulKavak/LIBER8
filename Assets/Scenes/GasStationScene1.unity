@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,164 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &71060775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1818927059}
+    m_Modifications:
+    - target: {fileID: 80463894477352291, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_Name
+      value: Quest
+      objectReference: {fileID: 0}
+    - target: {fileID: 80463894477352291, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7c3eb6a9a6ecb84687baf4c468e98ff, type: 3}
+--- !u!114 &71060776 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4473586144813860635, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 71060775}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &71060777 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 71060775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &71060778 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5510971340183881485, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 71060775}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &93865564
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,6 +1256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 308873738}
   - component: {fileID: 308873737}
+  - component: {fileID: 308873739}
   m_Layer: 0
   m_Name: VehicleManager
   m_TagString: Untagged
@@ -1164,6 +1323,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 308873739}
+        m_TargetAssemblyTypeName: QuestGiver, Assembly-CSharp
+        m_MethodName: GiveQuest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!4 &308873738
 Transform:
   m_ObjectHideFlags: 0
@@ -1181,6 +1352,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &308873739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308873736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38712712864e87045b137d4c3582e8ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questTitle: Game Over !
+  questDescription: "Dinlenmeyi hakettin. Kalan ara\xE7lar\u0131n deposunu doldurduktan
+    sonra Arcade makinesini bir dene !"
+  questSystem: {fileID: 1357947330}
 --- !u!1 &405740711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,7 +2447,7 @@ GameObject:
   - component: {fileID: 661562467}
   - component: {fileID: 661562466}
   - component: {fileID: 661562465}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ConversationEventInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2416,6 +2603,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1110089370}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1350451580}
+        m_TargetAssemblyTypeName: QuestGiver, Assembly-CSharp
+        m_MethodName: GiveQuest
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4209,6 +4420,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096785474}
   m_Mesh: {fileID: -2432090755550338912, guid: 6fb5e4bb597f4b140b9a609199945789, type: 3}
+--- !u!1 &1110089370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 80463894477352291, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 71060775}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1126474168
 GameObject:
   m_ObjectHideFlags: 0
@@ -4560,7 +4777,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54c767c1d488124459c74f66ead30e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  liveCount: 3
+  liveCount: 5
+  image: {fileID: 1443501928}
 --- !u!1 &1170392018
 GameObject:
   m_ObjectHideFlags: 0
@@ -5100,7 +5318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1339024767}
   - component: {fileID: 1339024768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5142,6 +5360,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8969417572210971711, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8699787447509501512, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bb94e17ea5378954c945a8a76302a4fd,
         type: 3}
       propertyPath: m_RootOrder
@@ -5217,6 +5445,71 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8272593504222155511, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8139853090755257685, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -7774620517717459388, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -7129114109226139434, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -5424213705957445524, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -4501201811031430588, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -3638193520734090830, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -2453550708452717748, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1930578328450875381, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1731024231264914805, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1693546492923637869, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1033859536177898853, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -799340755243943320, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bb94e17ea5378954c945a8a76302a4fd,
         type: 3}
       propertyPath: m_Name
@@ -5224,14 +5517,104 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bb94e17ea5378954c945a8a76302a4fd,
         type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1166754175604888097, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617399745748130172, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2464098630957027937, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2657195002283232437, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3897462237488877691, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108234674411243596, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4311629582287283170, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5323162407277330719, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: bb94e17ea5378954c945a8a76302a4fd,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: e46012cc8a5167c479955d809973de3a, type: 2}
+    - target: {fileID: 6386480451222621022, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499889929296628410, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793671751076278729, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036213049465896255, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7891850266450665243, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352526780231734871, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916979045543815761, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8924312143693774172, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9088872756827976528, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5252,6 +5635,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1350451578}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bb94e17ea5378954c945a8a76302a4fd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1350451580}
   m_SourcePrefab: {fileID: 100100000, guid: bb94e17ea5378954c945a8a76302a4fd, type: 3}
 --- !u!1 &1350451575 stripped
 GameObject:
@@ -5278,35 +5665,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 18
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":167.5,\"yPos\":-1229},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Samimi
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":281.9,\"yPos\":147},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Samimi
     bir \u015Fekilde) Yeni ba\u015Flad\u0131m asl\u0131nda. Burada \xE7al\u0131\u015Fmaya
-    karar vermemde baz\u0131 sebepler var.\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":78.5,\"yPos\":-969},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(A\xE7\u0131klay\u0131c\u0131
+    karar vermemde baz\u0131 sebepler var.\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":192.9,\"yPos\":407},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(A\xE7\u0131klay\u0131c\u0131
     bir \u015Fekilde) Ge\xE7mi\u015Fimi ara\u015Ft\u0131rmak i\xE7in burada \xE7al\u0131\u015Fmam
-    gerekti\u011Fini d\xFC\u015F\xFCn\xFCyorum.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":310.5,\"yPos\":-968},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Daha
+    gerekti\u011Fini d\xFC\u015F\xFCn\xFCyorum.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":424.9,\"yPos\":408},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Daha
     sakin) Yeni bir ba\u015Flang\u0131\xE7 yapmak istedim, bu i\u015F de bir f\u0131rsat
-    gibi geldi.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":211.5,\"yPos\":-754.999939},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Biraz
-    daha konu\u015F)\",\"parentUIDs\":[5,6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":239.5,\"yPos\":-452.999878},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    gibi geldi.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":325.9,\"yPos\":621.0002},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Biraz
+    daha konu\u015F)\",\"parentUIDs\":[5,6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":353.9,\"yPos\":923.0003},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
     bir \u015Fekilde) Evet, belki de hakl\u0131s\u0131n\u0131z. Burada ge\xE7irdi\u011Fim
-    her an, ge\xE7mi\u015Fimi \\r\\nanlamamda bana yard\u0131mc\u0131 olabilir.\\r\\n\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":261.5,\"yPos\":-248},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Merakla)
+    her an, ge\xE7mi\u015Fimi \\r\\nanlamamda bana yard\u0131mc\u0131 olabilir.\\r\\n\",\"parentUIDs\":[10],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":375.9,\"yPos\":1128},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Merakla)
     Bu benzin istasyonunun sahibi kim? Onunla hi\xE7 konu\u015Fma f\u0131rsat\u0131n\u0131z
-    oldu mu?\",\"parentUIDs\":[12],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":160.5,\"yPos\":-1354},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(G\xFCl\xFCmseyerek)
+    oldu mu?\",\"parentUIDs\":[12],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":274.9,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(G\xFCl\xFCmseyerek)
     Merhaba John, ben Mike. Bu b\xF6lgede s\u0131k s\u0131k u\u011Fruyorum, seni
-    yeni g\xF6rd\xFCm burada. Ne zamand\u0131r \xE7al\u0131\u015F\u0131yorsun?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":175.5,\"yPos\":-1120},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Merakl\u0131
-    bir \u015Fekilde) Ger\xE7ekten mi? Ne gibi sebepler?\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":309.5,\"yPos\":-870},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(G\xFCl\xFCmseyerek)
+    yeni g\xF6rd\xFCm burada. Ne zamand\u0131r \xE7al\u0131\u015F\u0131yorsun?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":289.9,\"yPos\":256},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Merakl\u0131
+    bir \u015Fekilde) Ger\xE7ekten mi? Ne gibi sebepler?\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":423.9,\"yPos\":506.000183},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(G\xFCl\xFCmseyerek)
     Her yeni ba\u015Flang\u0131\xE7, bir \u015Feyleri de\u011Fi\u015Ftirme f\u0131rsat\u0131
-    sunar.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":73.5,\"yPos\":-875},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
-    bir \u015Fekilde) \u0130lgin\xE7. Acaba burada neler \xF6\u011Frenebilirsin?\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":227.5,\"yPos\":-677.9999},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Biraz
-    s\xFCre ge\xE7er\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":225.5,\"yPos\":-585.999939},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John'a
+    sunar.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":187.9,\"yPos\":501.000183},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bir \u015Fekilde) \u0130lgin\xE7. Acaba burada neler \xF6\u011Frenebilirsin?\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":341.9,\"yPos\":698.0003},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Biraz
+    s\xFCre ge\xE7er\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":339.9,\"yPos\":790.000244},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John'a
     d\xF6nerek) John, belki de bu b\xF6lgedeki insanlarla daha fazla zaman ge\xE7irmek
     senin i\xE7in iyi olabilir. Kim bilir, belki de arad\u0131\u011F\u0131n \u015Feyi
-    bulabilirsin.\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":240.5,\"yPos\":-358.999878},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John'un
+    bulabilirsin.\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":354.9,\"yPos\":1017.00031},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John'un
     dikkati, sessizce k\xF6\u015Fede duran benzincinin sahibine kayar. Sahibin endi\u015Feli
-    bak\u0131\u015Flar\u0131 dikkat \xE7ekmektedir.)\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":276.5,\"yPos\":-168},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bak\u0131\u015Flar\u0131 dikkat \xE7ekmektedir.)\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":390.9,\"yPos\":1208},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
     bir \u015Fekilde) Evet, onunla birka\xE7 kez konu\u015Ftum. Ama biraz garip biri,
-    insanlarla pek muhabbet etmez.\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":291.5,\"yPos\":-46},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Uzaktan
-    benzin istasyonu sahibi (Adam) ile bak\u0131\u015F\u0131rlar...\\r\\n\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":303.5,\"yPos\":94},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ben
+    insanlarla pek muhabbet etmez.\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":405.9,\"yPos\":1330},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Uzaktan
+    benzin istasyonu sahibi (Adam) ile bak\u0131\u015F\u0131rlar...\\r\\n\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":417.9,\"yPos\":1470},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ben
     gideyim sen de i\u015Fine devam et. Belki Arcade makinas\u0131n\u0131 denersin
-    iyi g\xFCnler.\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":288.5,\"yPos\":207},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    iyi g\xFCnler.\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Mike\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":402.9,\"yPos\":1583},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -5344,6 +5731,117 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f067ca0595bcdd0449d3e815cd132d0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1350451580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350451575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38712712864e87045b137d4c3582e8ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questTitle: Depoyu doldur
+  questDescription: "Gelen ara\xE7lar\u0131n depolar\u0131n\u0131 doldur. Dikkat
+    et m\xFC\u015Fterileri k\u0131zd\u0131rma"
+  questSystem: {fileID: 1357947330}
+--- !u!1001 &1357947329
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3674.5103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2122.2957
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.168594
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376155555802457378, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: questTitleText
+      value: 
+      objectReference: {fileID: 71060778}
+    - target: {fileID: 5376155555802457378, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: questDescriptionText
+      value: 
+      objectReference: {fileID: 71060776}
+    - target: {fileID: 6466365223992999178, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_Name
+      value: QuestManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e87f2babe6e52254f8d5b3fa3ffdc65f, type: 3}
+--- !u!114 &1357947330 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5376155555802457378, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1357947329}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2195adc7d5e8ea4aa54a97d4cc33f4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1385660077
@@ -5679,6 +6177,152 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438675753}
   m_Mesh: {fileID: 6255687079079774844, guid: 8ff52fd208ce36b41a03c6dfafde84c2, type: 3}
+--- !u!1001 &1443501926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1818927059}
+    m_Modifications:
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846877326609734876, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_Name
+      value: FaultScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846877326609734876, guid: ae09121bec7177e45abce2a6703778d3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ae09121bec7177e45abce2a6703778d3, type: 3}
+--- !u!224 &1443501927 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4409360279919057495, guid: ae09121bec7177e45abce2a6703778d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1443501926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1443501928 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3144945585569883198, guid: ae09121bec7177e45abce2a6703778d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1443501926}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1452792174
 GameObject:
   m_ObjectHideFlags: 0
@@ -6566,6 +7210,8 @@ RectTransform:
   - {fileID: 1083995093}
   - {fileID: 1338051156}
   - {fileID: 2103169391}
+  - {fileID: 71060777}
+  - {fileID: 1443501927}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6899,7 +7545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1925983989}
   - component: {fileID: 1925983990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Virtual Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}

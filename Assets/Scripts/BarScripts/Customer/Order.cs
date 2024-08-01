@@ -4,8 +4,8 @@ using UnityEngine.UI;
 
 public class Order : MonoBehaviour, IInteractable
 {
-    public string[] fruits = {"Lemon", "Orange"};
-    public string[] sodas = {"Red", "Yellow", "Blue","Orange","Purple","Green"};
+    public string[] fruits = {"Portakal", "Limon"};
+    public string[] sodas = {"Kırmızı", "Sarı", "Mavi","Turuncu","Mor","Yeşil"};
     private TMP_Text orderText;
     private TMP_Text warningText;
 
@@ -64,7 +64,7 @@ public class Order : MonoBehaviour, IInteractable
         timerRunning = true;
         orderTimer = 30f;
 
-        string orderDetails = $"Order:  {orderedIce} Ice Cubes, {orderedSoda} Soda, {orderedFruit} Fruit";
+        string orderDetails = $"Sipariş:  {orderedIce} Buz Küpü, {orderedSoda} Soda, {orderedFruit}";
         Debug.Log(orderDetails);
 
         if (orderText != null)

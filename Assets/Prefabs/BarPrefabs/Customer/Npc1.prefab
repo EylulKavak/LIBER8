@@ -811,12 +811,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2569309762559276533}
   - component: {fileID: 736910261218256215}
-  - component: {fileID: 8478999325781560742}
   - component: {fileID: 8023934333130111901}
   - component: {fileID: 1222759705575216746}
   - component: {fileID: 7283580302270874787}
   - component: {fileID: 5691895957526491995}
   - component: {fileID: 2753161555487156493}
+  - component: {fileID: 2638446413226477291}
   m_Layer: 0
   m_Name: Npc1
   m_TagString: Box
@@ -863,31 +863,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8478999325781560742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6344955188164546710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dd026c383aa66f4084eef49287737fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruits:
-  - Lemon
-  - Orange
-  sodas:
-  - Red
-  - Yellow
-  - Blue
-  - Orange
-  - Purple
-  - Green
-  orderTimer: 30
-  timerSlider: {fileID: 4808622326886022328}
-  sliderFillImage: {fileID: 341070975869075935}
 --- !u!114 &8023934333130111901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1055,6 +1030,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2638446413226477291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6344955188164546710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd026c383aa66f4084eef49287737fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - Portakal
+  - Limon
+  sodas:
+  - "K\u0131rm\u0131z\u0131"
+  - "Sar\u0131"
+  - Mavi
+  - Turuncu
+  - Mor
+  - "Ye\u015Fil"
+  orderTimer: 30
+  timerSlider: {fileID: 4808622326886022328}
+  sliderFillImage: {fileID: 341070975869075935}
 --- !u!1 &7060184040034064762
 GameObject:
   m_ObjectHideFlags: 0

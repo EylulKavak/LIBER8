@@ -853,6 +853,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2040427446}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 750027865}
+        m_TargetAssemblyTypeName: QuestGiver, Assembly-CSharp
+        m_MethodName: GiveQuest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   NodeID: 7
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -1718,6 +1742,7 @@ RectTransform:
   - {fileID: 1681264908}
   - {fileID: 1725301806}
   - {fileID: 835816848}
+  - {fileID: 2040427445}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17030,6 +17055,101 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 590335295}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &590492801
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3674.5103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2122.2957
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.168594
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557533850124890139, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376155555802457378, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: questTitleText
+      value: 
+      objectReference: {fileID: 911849151}
+    - target: {fileID: 5376155555802457378, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: questDescriptionText
+      value: 
+      objectReference: {fileID: 1824797286}
+    - target: {fileID: 6466365223992999178, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+        type: 3}
+      propertyPath: m_Name
+      value: QuestManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e87f2babe6e52254f8d5b3fa3ffdc65f, type: 3}
+--- !u!114 &590492802 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5376155555802457378, guid: e87f2babe6e52254f8d5b3fa3ffdc65f,
+    type: 3}
+  m_PrefabInstance: {fileID: 590492801}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2195adc7d5e8ea4aa54a97d4cc33f4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &592230692
 GameObject:
   m_ObjectHideFlags: 0
@@ -21195,6 +21315,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 750027862}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5956ba42d8db6fb4c8858707d9c54ae5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 750027865}
   m_SourcePrefab: {fileID: 100100000, guid: 5956ba42d8db6fb4c8858707d9c54ae5, type: 3}
 --- !u!1 &750027851 stripped
 GameObject:
@@ -21390,22 +21514,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 8
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":253.5,\"yPos\":-194},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Lisa,
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":283.9,\"yPos\":138.000061},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Lisa,
     ge\xE7en gece konu\u015Ftu\u011Fumuz \u015Feyleri d\xFC\u015F\xFCnd\xFCm. Bana
-    yard\u0131m edebilir\\r\\nmisin?\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":112.5,\"yPos\":79},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Lisa'ya
+    yard\u0131m edebilir\\r\\nmisin?\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":142.9,\"yPos\":411},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Lisa'ya
     te\u015Fekk\xFCr ederek) Bu harika olur. \u0130lk \xF6nce kiminle konu\u015Faca\u011F\u0131m\u0131
-    d\xFC\u015F\xFCn\xFCyorsun?\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":375.5,\"yPos\":83},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    d\xFC\u015F\xFCn\xFCyorsun?\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":405.9,\"yPos\":415},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
     bir \u015Fekilde) Peki, buradaki m\xFC\u015Fterilerin hangisi ge\xE7mi\u015Fiyle
-    ilgili bilgi verebilir?\",\"parentUIDs\":[1],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":244.5,\"yPos\":-310},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Kendi
+    ilgili bilgi verebilir?\",\"parentUIDs\":[1],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":274.9,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Kendi
     kendine) Bu olay\u0131n perde arkas\u0131nda ne oldu\u011Funu bulmal\u0131y\u0131m.
-    Aileme geri\\r\\nd\xF6nebilmem i\xE7in bu ger\xE7ekleri ortaya \xE7\u0131karmal\u0131y\u0131m.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"John\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":257.5,\"yPos\":-83},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Elbette
+    Aileme geri\\r\\nd\xF6nebilmem i\xE7in bu ger\xE7ekleri ortaya \xE7\u0131karmal\u0131y\u0131m.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"John\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":287.9,\"yPos\":249.000015},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Elbette
     John ne yapabilirsem yapar\u0131m \\nBu bar\u0131n m\xFCdavimleri aras\u0131nda
     25 y\u0131l \xF6ncesini\\r \\nhat\u0131rlayan bir\xE7ok insan var \\nOnlar\u0131
-    konu\u015Fmaya ikna edebilirim.\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":116.5,\"yPos\":169},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnerek)
+    konu\u015Fmaya ikna edebilirim.\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":146.9,\"yPos\":501},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnerek)
     Bar\u0131n en eski m\xFC\u015Fterilerinden biri olan Harry, belki bize yard\u0131mc\u0131
-    olabilir. Onunla konu\u015Fmaya ba\u015Flayabiliriz.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":380.5,\"yPos\":169},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Empatiyle)
+    olabilir. Onunla konu\u015Fmaya ba\u015Flayabiliriz.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":410.9,\"yPos\":501},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Empatiyle)
     Bir\xE7o\u011Fu, farkl\u0131 nedenlerle burada uzun s\xFCredir tak\u0131l\u0131yorlar.
-    Ama baz\u0131lar\u0131 ge\xE7mi\u015F hakk\u0131nda konu\u015Fmaktan ho\u015Flanabilir.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":274.5,\"yPos\":312},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[5,6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    Ama baz\u0131lar\u0131 ge\xE7mi\u015F hakk\u0131nda konu\u015Fmaktan ho\u015Flanabilir.\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":307.9,\"yPos\":644},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[5,6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -21436,6 +21560,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e193ed60456388a44ad5da61b3fb1658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &750027865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750027851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38712712864e87045b137d4c3582e8ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questTitle: Eski Defterler
+  questDescription: "Harry ile konu\u015F"
+  questSystem: {fileID: 590492802}
 --- !u!1001 &751400934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25220,6 +25359,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 910725290}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &911849151 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5510971340183881485, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040427444}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &912574408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36934,29 +37085,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 15
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":165.5,\"yPos\":111},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Harry'e
-    do\u011Fru) Harry, seninle bir \u015Feyler payla\u015Fmak istiyorum.\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":372.5,\"yPos\":110},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Harry'e
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":185.9,\"yPos\":-728.999939},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Harry'e
+    do\u011Fru) Harry, seninle bir \u015Feyler payla\u015Fmak istiyorum.\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":392.9,\"yPos\":-729.999939},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Harry'e
     samimi bir \u015Fekilde) Harry, seninle ge\xE7mi\u015Fle ilgili bir konu\u015Fma
-    yapabilir miyiz?\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":274.5,\"yPos\":329},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"25
+    yapabilir miyiz?\",\"parentUIDs\":[1],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":294.9,\"yPos\":-510.999939},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"25
     y\u0131l \xF6nce bu mahallede bir cinayet i\u015Flendi, hat\u0131rl\u0131yor
-    musun?\",\"parentUIDs\":[4,5],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":285.5,\"yPos\":597},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Belki
-    de benzincinin sahibi bize yard\u0131mc\u0131 olabilir.\",\"parentUIDs\":[9],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":295.5,\"yPos\":880},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnerek)
+    musun?\",\"parentUIDs\":[4,5],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":305.9,\"yPos\":-242.999954},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Belki
+    de benzincinin sahibi bize yard\u0131mc\u0131 olabilir.\",\"parentUIDs\":[9],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":315.9,\"yPos\":40.0000153},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnerek)
     Hakl\u0131s\u0131n\u0131z. Burada \xE7al\u0131\u015Farak belki de yeni bilgiler
-    elde edebilirim.\",\"parentUIDs\":[12],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":266.5,\"yPos\":-138},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John
-    ve Lisa'ya yakla\u015Farak) Lisa. Ne var ne yok?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":262,\"yPos\":-29},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Selam
+    elde edebilirim.\",\"parentUIDs\":[12],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":286.9,\"yPos\":-978},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(John
+    ve Lisa'ya yakla\u015Farak) Lisa. Ne var ne yok?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":282.4,\"yPos\":-868.999939},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Selam
     Harry, ben iyiyim ama dostum John i\xE7in ayn\u0131 \u015Feyi s\xF6yleyemeyece\u011Fim.
-    Biraz zaman\u0131n var m\u0131?\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":165.5,\"yPos\":194},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Merakla)
-    Tabii John, dinliyorum seni.\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":375.5,\"yPos\":194},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
-    bir \u015Fekilde) Ge\xE7mi\u015F, bazen unutulmayacak kadar yak\u0131n olabilir.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":281.5,\"yPos\":402},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    Biraz zaman\u0131n var m\u0131?\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lisa\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":185.9,\"yPos\":-645.9999},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Merakla)
+    Tabii John, dinliyorum seni.\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":395.9,\"yPos\":-645.9999},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    bir \u015Fekilde) Ge\xE7mi\u015F, bazen unutulmayacak kadar yak\u0131n olabilir.\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":301.9,\"yPos\":-437.999939},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
     bir \u015Fekilde) \u0130yi hat\u0131rl\u0131yorum John, o g\xFCnleri. Bu konuda
-    sana yard\u0131mc\u0131 olabilecek bir yer var. \",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":282.5,\"yPos\":498},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Benzin
-    istasyonunun foto\u011Fraf\u0131n\u0131 g\xF6sterir.)\\r\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":289.5,\"yPos\":677},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    sana yard\u0131mc\u0131 olabilecek bir yer var. \",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":302.9,\"yPos\":-341.999939},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Benzin
+    istasyonunun foto\u011Fraf\u0131n\u0131 g\xF6sterir.)\\r\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":309.9,\"yPos\":-162.999954},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
     bir \u015Fekilde) Evet, ama o korkudan dolay\u0131 konu\u015Fam\u0131yor. John'u
     burada \xE7al\u0131\u015Fmaya y\xF6nlendirerek, ona yakla\u015Fmas\u0131n\u0131
-    sa\u011Flayabiliriz.\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":290.5,\"yPos\":775},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
+    sa\u011Flayabiliriz.\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Jake\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":310.9,\"yPos\":-64.99997},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(D\xFC\u015F\xFCnceli
     bir \u015Fekilde) John, belki de burada \xE7al\u0131\u015Fmak sana yeni bir perspektif
     kazand\u0131rabilir. \u0130nsanlarla ileti\u015Fim kurarak belki de yeni ipu\xE7lar\u0131
-    bulabilirsin.\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":300.5,\"yPos\":960},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    bulabilirsin.\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Harry\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":320.9,\"yPos\":120.000015},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -36980,7 +37131,19 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1082047610}
+        m_TargetAssemblyTypeName: Loader, Assembly-CSharp
+        m_MethodName: GoScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GasStationScene1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &1285017685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52307,6 +52470,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1811950978}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1824797286 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4473586144813860635, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040427444}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1827907595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57420,6 +57595,141 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5060767883619301405, guid: 7068f38c7fb6a364a85b7461318e0f7d,
     type: 3}
   m_PrefabInstance: {fileID: 2037466106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2040427444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 50686963}
+    m_Modifications:
+    - target: {fileID: 80463894477352291, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_Name
+      value: Quest
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7c3eb6a9a6ecb84687baf4c468e98ff, type: 3}
+--- !u!224 &2040427445 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7166275065689496590, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040427444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2040427446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 80463894477352291, guid: f7c3eb6a9a6ecb84687baf4c468e98ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040427444}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2040981038
 PrefabInstance:

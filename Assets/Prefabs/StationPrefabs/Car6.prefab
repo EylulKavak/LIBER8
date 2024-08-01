@@ -119,7 +119,7 @@ Transform:
   - {fileID: 6115247001575759665}
   - {fileID: 2138171025022675517}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7177834015501414602
 MonoBehaviour:
@@ -137,8 +137,6 @@ MonoBehaviour:
   isFilledOnce: 0
   fuelSlider: {fileID: 341876169608076574}
   fillImage: {fileID: 4809426764721545337}
-  lowSpeedAudioSource: {fileID: 0}
-  highSpeedAudioSource: {fileID: 0}
 --- !u!64 &1098186242683210566
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -338,7 +336,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8254488864284088728}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.8600006, y: -0.276, z: -1.22}
+  m_LocalPosition: {x: 1.8600006, y: -0.138, z: -1.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

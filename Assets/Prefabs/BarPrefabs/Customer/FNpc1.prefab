@@ -42,12 +42,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3389815232250589973}
   - component: {fileID: 8798327028565423567}
-  - component: {fileID: 1985463888388032596}
   - component: {fileID: 6364226392354726770}
   - component: {fileID: 1374751738286311524}
   - component: {fileID: 6299308018010666903}
   - component: {fileID: 3564907666224537657}
   - component: {fileID: 7865700699394477023}
+  - component: {fileID: -1745083933078957058}
   m_Layer: 0
   m_Name: FNpc1
   m_TagString: Box
@@ -94,31 +94,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1985463888388032596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306409791090270076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dd026c383aa66f4084eef49287737fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruits:
-  - Lemon
-  - Orange
-  sodas:
-  - Red
-  - Yellow
-  - Blue
-  - Orange
-  - Purple
-  - Green
-  orderTimer: 30
-  timerSlider: {fileID: 1643511877430725102}
-  sliderFillImage: {fileID: 5822872713906500745}
 --- !u!114 &6364226392354726770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,6 +261,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-1745083933078957058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306409791090270076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd026c383aa66f4084eef49287737fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - Portakal
+  - Limon
+  sodas:
+  - "K\u0131rm\u0131z\u0131"
+  - "Sar\u0131"
+  - Mavi
+  - Turuncu
+  - Mor
+  - "Ye\u015Fil"
+  orderTimer: 30
+  timerSlider: {fileID: 1643511877430725102}
+  sliderFillImage: {fileID: 5822872713906500745}
 --- !u!1 &324264393424926991
 GameObject:
   m_ObjectHideFlags: 0

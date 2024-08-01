@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 7223618312816322725}
   - component: {fileID: 5234786337038558255}
   m_Layer: 6
-  m_Name: Glass2VoxelBlue
+  m_Name: Glass2VoxelBlueMavi
   m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
