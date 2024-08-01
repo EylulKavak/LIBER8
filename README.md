@@ -13,6 +13,13 @@
 
 ![LIBER8](https://github.com/user-attachments/assets/be662329-c05f-4017-a100-222e712dd425)
 
+# 
+
+## LIBER∞ Game Trailer
+
+[![Watch the video](https://img.youtube.com/vi/DGz_yOnT-yY/maxresdefault.jpg)](https://youtu.be/DGz_yOnT-yY)
+
+Soundtracks & Video Design - Eylül Kavak Öz
 
 ## Hikayenin Konusu
 LIBER∞, singleplayer şeklinde oynanan, diyalog sistemi içeren, meslek & mini oyunlarıyla PC oyun çeşitlerini denemenize imkan tanıyan 3D bir hikaye oyunudur. Hikayenin ana kahramanı John, bir iş adamının ölümüyle ilgili olarak suçlanmıştır. Ölüm şüpheli bir şekilde gerçekleşmiş, deliller John'u suçlu göstermiş ve John adil olmayan bir şekilde hapis cezasına çarptırılmıştır. 25 yılın ardından John hapishaneden kaçar. Bu kaçış onun masumiyetini kanıtlama ve gerçek suçluyu bulma amacıyla başlar.
