@@ -1,7 +1,7 @@
-## Takım Adı:
+## Takım Adı
 **Unity Grup - 19**
 
-## Takım Üyeleri:
+## Takım Üyeleri
 
 - **Emir Ayar** - Product Owner & Developer
 - **Eylül Kavak Öz** - Scrum Master & Developer & Sound Designer
@@ -14,7 +14,7 @@
 ![LIBER8](https://github.com/user-attachments/assets/be662329-c05f-4017-a100-222e712dd425)
 
 
-## Hikayenin Konusu:
+## Hikayenin Konusu
 LIBER∞, singleplayer şeklinde oynanan, diyalog sistemi içeren, meslek & mini oyunlarıyla PC oyun çeşitlerini denemenize imkan tanıyan 3D bir hikaye oyunudur. Hikayenin ana kahramanı John, bir iş adamının ölümüyle ilgili olarak suçlanmıştır. Ölüm şüpheli bir şekilde gerçekleşmiş, deliller John'u suçlu göstermiş ve John adil olmayan bir şekilde hapis cezasına çarptırılmıştır. 25 yılın ardından John hapishaneden kaçar. Bu kaçış onun masumiyetini kanıtlama ve gerçek suçluyu bulma amacıyla başlar.
 
 ## Oyun Özellikleri
@@ -33,7 +33,7 @@ Asset model tasarımında MagicaVoxel kullanılmıştır.
 
 Unity Game Engine ile yapılmıştır.
 
-## Oyun Platformu:
+## Oyun Platformu
 * itch.io linki
 * Steam platformunda yayınlanacaktır. Ayrıca müzikleri indirilebilir içerik olarak satılacaktır.
 
