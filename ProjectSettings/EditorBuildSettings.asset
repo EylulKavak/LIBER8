@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 7655441853e491f42b5f8b3c4411baaf
+  - enabled: 1
     path: Assets/Scenes/JailInterior.unity
     guid: d7ad4c2c3316975468db0b916c378dcf
   - enabled: 1

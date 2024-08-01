@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.019311171, g: 0.014617335, b: 0.010036883, a: 1}
+  m_IndirectSpecularColor: {r: 0.07267159, g: 0.064552054, b: 0.042172737, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1420,14 +1420,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41133163}
-  m_LocalRotation: {x: 0.9961947, y: -0, z: -0, w: -0.08715578}
+  m_LocalRotation: {x: 0.9990483, y: -0, z: -0, w: -0.043619405}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 190, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 185, y: 0, z: 0}
 --- !u!114 &41133166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8925,6 +8925,8 @@ PlayableDirector:
     value: {fileID: 1075613038}
   - key: {fileID: -7603000381987223758, guid: e0b39663154ef7145abeb892865e5d50, type: 2}
     value: {fileID: 1653064865}
+  - key: {fileID: 4996349468247179411, guid: e0b39663154ef7145abeb892865e5d50, type: 2}
+    value: {fileID: 1074220456}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &365380081
@@ -15361,7 +15363,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 120
+  far clip plane: 256
   field of view: 60.000004
   orthographic: 0
   orthographic size: 5
@@ -15388,7 +15390,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603385664}
   m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
-  m_LocalPosition: {x: -0.5669635, y: 2.8575518, z: 34.0426}
+  m_LocalPosition: {x: -0.56707776, y: 2.8575518, z: 9.840559}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28725,7 +28727,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.8
+      value: 0.2
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -43213,7 +43215,7 @@ MonoBehaviour:
     FieldOfView: 60.000004
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 120
+    FarClipPlane: 256
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -43236,7 +43238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521190044}
   m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
-  m_LocalPosition: {x: -0.5669635, y: 2.8575518, z: 34.0426}
+  m_LocalPosition: {x: -0.56707776, y: 2.8575518, z: 9.840559}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

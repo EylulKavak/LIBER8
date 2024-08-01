@@ -11,6 +11,7 @@ public class PauseMenu : MonoBehaviour
     void Awake()
     {
         playerInputs = new PlayerInputs();
+        PlayerPrefs.SetInt("Level", SceneManager.GetActiveScene().buildIndex);
     }
     private void OnEnable()
     {
