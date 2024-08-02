@@ -1,21 +1,14 @@
-## Takım Adı
-**Unity Grup - 19**
-
-## Takım Üyeleri
-
-- **Emir Ayar** - Product Owner & Developer
-- **Eylül Kavak Öz** - Scrum Master & Developer & Sound Designer
-- **Elbruz Nart Şuruh** - Lead Developer
-- **Emirhan Alkın** - Developer
-- **Esmanur Tetik** - Game Artist & Level Designer
-
-## Oyun Adı: LIBER∞
+# Oyun Adı: LIBER∞
 
 ![LIBER8](https://github.com/user-attachments/assets/be662329-c05f-4017-a100-222e712dd425)
 
 # 
 
-## [LIBER∞ Game Trailer İçin Tıklayın!](https://www.youtube.com/watch?v=DGz_yOnT-yY&t=1s)
+## [LIBER∞ Game Trailer YouTube Linki İçin Tıklayın!](https://www.youtube.com/watch?v=DGz_yOnT-yY&t=1s)
+
+## Unity Grup - 19
+
+![Team Members](https://github.com/user-attachments/assets/4a90534a-6046-4ff5-9055-afb2dfcfa446)
 
 ## Hikayenin Konusu
 LIBER∞, singleplayer şeklinde oynanan, diyalog sistemi içeren, meslek & mini oyunlarıyla PC oyun çeşitlerini denemenize imkan tanıyan 3D bir hikaye oyunudur. Hikayenin ana kahramanı John, bir iş adamının ölümüyle ilgili olarak suçlanmıştır. Ölüm şüpheli bir şekilde gerçekleşmiş, deliller John'u suçlu göstermiş ve John adil olmayan bir şekilde hapis cezasına çarptırılmıştır. 25 yılın ardından John hapishaneden kaçar. Bu kaçış onun masumiyetini kanıtlama ve gerçek suçluyu bulma amacıyla başlar.
@@ -39,14 +32,20 @@ Unity Game Engine ile yapılmıştır.
 ## Oyun Platformu
 * [LIBER∞_itch.io linki](https://elbruznartthawkho.itch.io/liber8)
 * Steam platformunda yayınlanacaktır. Ayrıca müzikleri indirilebilir içerik olarak satılacaktır.
+* Windows sürümünü indirmek için [buraya](https://drive.google.com/file/d/1_z2QZ0lvPSWNEDhaTOsxG5Y79jH8kEhU/view?usp=drive_link) tıklayabilirsiniz. 
 
 ## Yapay Zeka Kullanımı
 Oyun içi bazı görsellerde ve bazı kodlarda NavMesh Agents kullanıldı.
 Ayrıca logo tasarımında ve hikaye metni yazımında yapay zekadan faydalanıldı.
 
 
-## Product Backlog URL
-[Product Backlog](https://trello.com/invite/b/CGPjXqGs/ATTI50196393f53431e00b224b1bff53f94275553C29/to-dos)
+## Product Backlog
+[Product Backlog URL](https://trello.com/invite/b/CGPjXqGs/ATTI50196393f53431e00b224b1bff53f94275553C29/to-dos)
+
+---
+
+![SPRINTS](https://github.com/user-attachments/assets/326802f1-4b38-4e6b-89c0-3fba65e1c437)
+
 
 # 1. Sprint Başlangıcı (24.06.2024)
 Sprint başlatma toplantısı 24.06.2024 tarihinde 19:00’da yapılmıştır, ekran görüntülerine [buradan](https://drive.google.com/drive/folders/1JbROJwz_B1vew5MIYSxA2uJgpTO4Dklj?usp=drive_link) ulaşabilirsiniz. 
@@ -132,7 +131,6 @@ Sprint başlatma toplantısı sonunda görevler aşağıdaki şekilde belirlenmi
     
 </details>
 
----
 
 ### 1. Sprint Görevleri ve Durumları
 | Görev | Sorumlu | Backlog Puanı | Durum |
@@ -153,8 +151,6 @@ Sprint başlatma toplantısı sonunda görevler aşağıdaki şekilde belirlenmi
 ### 1. Sprint Puanı
 - Beklenen: 76
 - Ulaşılan: 71
-
----
 
 ## 1. Sprint Sonu (06.07.2024)
 Sprint review toplantısı 06.07.2024 tarihinde 19:30’da yapılmıştır, ekran görüntülerine [buradan](https://drive.google.com/drive/folders/1-6CpJrUHYfGH-S4DI8kzCUDzvEc2IGm0?usp=drive_link) ulaşabilirsiniz. 
@@ -274,6 +270,7 @@ Daily Scrum görüşmeleri Discord üzerinden yapılmıştır, ekran görüntül
   
 </details>
 
+---
 
 # 3. Sprint Başlangıcı (07.07.2024)
 20.07.2024 tarihinde 2.Sprint review toplantısının devamında 3.Sprint için yapılması gerekenler ve planlamalar üzerine konuşulmuştur. 
@@ -325,7 +322,7 @@ Daily Scrum görüşmeleri Discord üzerinden yapılmıştır, ekran görüntül
 <details>
   <summary>Trello Görseli</summary>
 
-  ![Trello](https://github.com/user-attachments/assets/16805593-ff31-4685-9453-a733e7279e5e)
+  ![Trello](https://github.com/user-attachments/assets/a6c4abc4-9e6d-4f56-834a-9ec2feab1dce)
 
 </details>
 
@@ -337,7 +334,7 @@ Daily Scrum görüşmeleri Discord üzerinden yapılmıştır, ekran görüntül
 - Esmanur Tetik
 
 ### Sprint Retrospective
-- Oyunundaki eksiklerimizi ve hatalarımızı bir sonraki versiyonda daha iyi iyileştirebilmek üzerine konuştuk.
+- Oyunundaki eksiklerimizi ve hatalarımızı oyunun bir sonraki sürümünde daha iyi iyileştirebilmek üzerine konuştuk.
   
 ## 3. Sprint Görselleri
 <details>
@@ -377,8 +374,6 @@ Daily Scrum görüşmeleri Discord üzerinden yapılmıştır, ekran görüntül
 ![Screenshot_18](https://github.com/user-attachments/assets/e7e6f78a-15b3-4321-a39e-a5085b77fc88)
 ![Screenshot_17](https://github.com/user-attachments/assets/5d99766b-35e0-4cba-8e12-6db07d3b79cb)
 ![AudioMaking_Soundtrap_1](https://github.com/user-attachments/assets/50c75c85-c28b-4c76-ba22-0dd80911a73f)
-
-
 
 </details>
 
