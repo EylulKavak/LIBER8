@@ -317,7 +317,7 @@ Puan tamamlama mantığı: Proje boyunca tamamlanması gereken backlog puanı 16
 - Ulaşılan: 81
 
 ## 3. Sprint Sonu (02.08.2024)
-Sprint review toplantısı 02.08.2024 tarihinde 16:00’da yapılmıştır, ekran görüntülerine [buradan](https://drive.google.com/drive/folders/1BwcHLs77xOdIl5vW5WtQgvMF4YYkLxrN?usp=drive_link) ulaşabilirsiniz.
+Sprint review toplantısı 02.08.2024 tarihinde 16:00’da yapılmıştır, ekran görüntülerine [buradan](https://drive.google.com/drive/folders/1IupwmeQdUbawF9zG72LZNtLyHy97LqFi?usp=drive_link) ulaşabilirsiniz.
 
 ### Daily Scrum
 Daily Scrum görüşmeleri Discord üzerinden yapılmıştır, ekran görüntülerine [buradan](https://drive.google.com/drive/folders/1p2Qg5w7T4HQeB_xOFwQFQgcujSizStjW) ulaşabilirsiniz.
