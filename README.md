@@ -29,6 +29,8 @@ Oyun müzikleri hem https://www.soundtrap.com/musicmakers platformu üzerinden �
 
 Asset model tasarımında MagicaVoxel kullanılmıştır.
 
+Diyalog editör kullanılmıştır. Ücretsiz asset linki için [buraya](https://assetstore.unity.com/packages/tools/utilities/dialogue-editor-168329) tıklayabilirsiniz. 
+
 Unity Game Engine ile yapılmıştır.
 
 ## Oyun Platformu
