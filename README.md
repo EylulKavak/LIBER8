@@ -42,6 +42,10 @@ Ayrıca logo tasarımında ve hikaye metni yazımında yapay zekadan faydalanıl
 ## Product Backlog
 [Product Backlog URL](https://trello.com/invite/b/CGPjXqGs/ATTI50196393f53431e00b224b1bff53f94275553C29/to-dos)
 
+
+## Project File
+[Project File URL](https://drive.google.com/drive/folders/1UiKFTjwlF9n18_e1JIhLcGAp99kWlXfJ?usp=drive_link)
+
 ---
 
 ![SPRINTS](https://github.com/user-attachments/assets/326802f1-4b38-4e6b-89c0-3fba65e1c437)
