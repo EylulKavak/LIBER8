@@ -10,6 +10,8 @@
 
 ![Team Members](https://github.com/user-attachments/assets/4a90534a-6046-4ff5-9055-afb2dfcfa446)
 
+Bu oyun Google Oyun ve Uygulama Akademisi 2024 Bootcamp'i bünyesinde Unity Grup 19 üyeleri tarafından hazırlanmıştır.
+
 ## Hikayenin Konusu
 LIBER∞, singleplayer şeklinde oynanan, diyalog sistemi içeren, meslek & mini oyunlarıyla PC oyun çeşitlerini denemenize imkan tanıyan 3D bir hikaye oyunudur. Hikayenin ana kahramanı John, bir iş adamının ölümüyle ilgili olarak suçlanmıştır. Ölüm şüpheli bir şekilde gerçekleşmiş, deliller John'u suçlu göstermiş ve John adil olmayan bir şekilde hapis cezasına çarptırılmıştır. 25 yılın ardından John hapishaneden kaçar. Bu kaçış onun masumiyetini kanıtlama ve gerçek suçluyu bulma amacıyla başlar.
 
