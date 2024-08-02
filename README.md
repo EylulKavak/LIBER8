@@ -276,10 +276,7 @@ Daily Scrum görüşmeleri Discord üzerinden yapılmıştır, ekran görüntül
 
 
 # 3. Sprint Başlangıcı (07.07.2024)
-20.07.2024 tarihinde 2.Sprint review toplantısının devamında 3.Sprint için yapılması gerekenler ve planlamalar üzerine konuşulmuştur.
-
-Puan tamamlama mantığı: Proje boyunca tamamlanması gereken backlog puanı 167dir. Üçüncü sprint için bitirilmesi hedeflenen puan sayısı 33 olarak belirlenmiştir. İkinci sprintten gelen iş yükü ile birlikte üçüncü sprint boyunca yapılan takım içi toplantılarda fark edilip yeni görevlerin de eklenmesiyle, 3.Sprint için ulaşılması hedeflenen güncel backlog puanı XX olmuştur.
-
+20.07.2024 tarihinde 2.Sprint review toplantısının devamında 3.Sprint için yapılması gerekenler ve planlamalar üzerine konuşulmuştur. 
 
 Ayrıca 25/07/2024 , 27/07/2024 , 29/07/2024 / 31/07/2024 ve 01/08/224 tarihlerinde takım toplantları yapılmıştır. Bu toplantılarda oyunun tamamlanması ulaşılan ve ulaşılması beklenen hedeflerin üzerinden geçilmiştir. Toplantı ekran görüntülerine [buradan](https://drive.google.com/drive/folders/1_Q8rUjyzh3wtrmUP4kMAMIJnIxi7M5a4?usp=drive_link) ulaşabilirsiniz.
 
